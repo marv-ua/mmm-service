@@ -308,6 +308,108 @@
 			</v8:item>
 		</title>
 	</calculatedField>
+	<calculatedField>
+		<dataPath>ДельтаНачОстаток</dataPath>
+		<expression>(isnull(СуммаНачальныйОстатокДт,0) - isnull(СуммаНачальныйОстатокДт7,0)) - (isnull(СуммаНачальныйОстатокКт,0) - isnull(СуммаНачальныйОстатокКт7,0))</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дельта нач остаток</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ДельтаКонОстаток</dataPath>
+		<expression>(isnull(СуммаКонечныйОстатокДт,0) - isnull(СуммаКонечныйОстатокДт7,0)) - (isnull(СуммаКонечныйОстатокКт,0) - isnull(СуммаКонечныйОстатокКт7,0))</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дельта кон остаток</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>НачОстаток</dataPath>
+		<expression>isnull(СуммаНачальныйОстатокДт,0) - isnull(СуммаНачальныйОстатокКт,0) </expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Нач остаток</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>КонОстаток</dataPath>
+		<expression>isnull(СуммаКонечныйОстатокДт,0) 
+- isnull(СуммаКонечныйОстатокКт,0)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Кон остаток</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>НачОстаток7</dataPath>
+		<expression>isnull(СуммаНачальныйОстатокДт7,0) - isnull(СуммаНачальныйОстатокКт7,0) </expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Нач остаток7</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>КонОстаток7</dataPath>
+		<expression>isnull(СуммаКонечныйОстатокДт7,0) 
+- isnull(СуммаКонечныйОстатокКт7,0)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Кон остаток7</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<totalField>
+		<dataPath>ДельтаКонОстаток</dataPath>
+		<expression>Сумма(ДельтаКонОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДельтаКонОстатокДт</dataPath>
+		<expression>Сумма(ДельтаКонОстатокДт)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДельтаКонОстатокКт</dataPath>
+		<expression>Сумма(ДельтаКонОстатокКт)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДельтаНачОстаток</dataPath>
+		<expression>Сумма(ДельтаНачОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДельтаНачОстатокДт</dataPath>
+		<expression>Сумма(ДельтаНачОстатокДт)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДельтаНачОстатокКт</dataPath>
+		<expression>Сумма(ДельтаНачОстатокКт)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДельтаОборотДт</dataPath>
+		<expression>Сумма(ДельтаОборотДт)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДельтаОборотКт</dataPath>
+		<expression>Сумма(ДельтаОборотКт)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КонОстаток</dataPath>
+		<expression>Сумма(КонОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>НачОстаток</dataPath>
+		<expression>Сумма(НачОстаток)</expression>
+	</totalField>
 	<totalField>
 		<dataPath>СуммаКонечныйОстатокДт</dataPath>
 		<expression>Сумма(СуммаКонечныйОстатокДт)</expression>
@@ -357,28 +459,12 @@
 		<expression>Сумма(СуммаОборотКт7)</expression>
 	</totalField>
 	<totalField>
-		<dataPath>ДельтаНачОстатокДт</dataPath>
-		<expression>Сумма(ДельтаНачОстатокДт)</expression>
+		<dataPath>КонОстаток7</dataPath>
+		<expression>Сумма(КонОстаток7)</expression>
 	</totalField>
 	<totalField>
-		<dataPath>ДельтаНачОстатокКт</dataPath>
-		<expression>Сумма(ДельтаНачОстатокКт)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ДельтаОборотДт</dataPath>
-		<expression>Сумма(ДельтаОборотДт)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ДельтаОборотКт</dataPath>
-		<expression>Сумма(ДельтаОборотКт)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ДельтаКонОстатокДт</dataPath>
-		<expression>Сумма(ДельтаКонОстатокДт)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ДельтаКонОстатокКт</dataPath>
-		<expression>Сумма(ДельтаКонОстатокКт)</expression>
+		<dataPath>НачОстаток7</dataPath>
+		<expression>Сумма(НачОстаток7)</expression>
 	</totalField>
 	<parameter>
 		<name>Период</name>
@@ -419,34 +505,38 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
-					<dcsset:title>Начальный остаток Дт</dcsset:title>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Начальный остаток</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>СуммаНачальныйОстатокДт</dcsset:field>
-						<dcsset:title>из 8</dcsset:title>
+						<dcsset:field>НачОстаток</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>из 8</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>СуммаНачальныйОстатокДт7</dcsset:field>
-						<dcsset:title>из 7</dcsset:title>
+						<dcsset:field>НачОстаток7</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>из 7</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ДельтаНачОстатокДт</dcsset:field>
-						<dcsset:title>Дельта</dcsset:title>
-					</dcsset:item>
-					<dcsset:placement>Auto</dcsset:placement>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
-					<dcsset:title>Начальный остаток Кт</dcsset:title>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>СуммаНачальныйОстатокКт</dcsset:field>
-						<dcsset:title>из 8</dcsset:title>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>СуммаНачальныйОстатокКт7</dcsset:field>
-						<dcsset:title>из 7</dcsset:title>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ДельтаНачОстатокКт</dcsset:field>
-						<dcsset:title>Дельта</dcsset:title>
+						<dcsset:field>ДельтаНачОстаток</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Дельта</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
 					</dcsset:item>
 					<dcsset:placement>Auto</dcsset:placement>
 				</dcsset:item>
@@ -483,38 +573,41 @@
 					<dcsset:placement>Auto</dcsset:placement>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
-					<dcsset:title>Конечный остаток Дт</dcsset:title>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Конечный остаток</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>СуммаКонечныйОстатокДт</dcsset:field>
-						<dcsset:title>из 8</dcsset:title>
+						<dcsset:field>КонОстаток</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>из 8</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>СуммаКонечныйОстатокДт7</dcsset:field>
-						<dcsset:title>из 7</dcsset:title>
+						<dcsset:field>КонОстаток7</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>из 7</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ДельтаКонОстатокДт</dcsset:field>
-						<dcsset:title>Дельта</dcsset:title>
+						<dcsset:field>ДельтаКонОстаток</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Дельта</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
 					</dcsset:item>
 					<dcsset:placement>Auto</dcsset:placement>
 				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
-					<dcsset:title>Конечный остаток Кт</dcsset:title>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>СуммаКонечныйОстатокКт</dcsset:field>
-						<dcsset:title>из 8</dcsset:title>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>СуммаКонечныйОстатокКт7</dcsset:field>
-						<dcsset:title>из 7</dcsset:title>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ДельтаКонОстатокКт</dcsset:field>
-						<dcsset:title>Дельта</dcsset:title>
-					</dcsset:item>
-					<dcsset:placement>Auto</dcsset:placement>
-				</dcsset:item>
-				<dcsset:viewMode>Normal</dcsset:viewMode>
 				<dcsset:userSettingID>faa6a25a-0457-4739-b54b-256076a189ce</dcsset:userSettingID>
 			</dcsset:selection>
 			<dcsset:filter>
@@ -617,6 +710,12 @@
 						</dcsset:item>
 						<dcsset:item>
 							<dcsset:field>ДельтаОборотКт</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДельтаКонОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДельтаНачОстаток</dcsset:field>
 						</dcsset:item>
 					</dcsset:selection>
 					<dcsset:filter/>
@@ -723,7 +822,6 @@
 					</dcsset:item>
 				</dcsset:item>
 			</dcsset:item>
-			<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
 			<dcsset:itemsUserSettingID>c44e00bd-1157-4ae7-ac5e-84552e89bbd8</dcsset:itemsUserSettingID>
 		</dcsset:settings>
 	</settingsVariant>
