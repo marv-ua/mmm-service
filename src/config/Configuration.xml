@@ -1922,7 +1922,7 @@
 			<CommonModule>ВыборПериодаКлиент</CommonModule>
 			<CommonModule>ВыборПериодаКлиентСервер</CommonModule>
 			<CommonModule>ЗатратыСервер</CommonModule>
-			<CommonModule>мммЗатратыКлиент</CommonModule>
+			<CommonModule>ЗатратыКлиент</CommonModule>
 			<CommonModule>ЗатратыКлиентСервер</CommonModule>
 			<CommonModule>мммОтчетЗатратыСервер</CommonModule>
 			<CommonModule>мммОтчетЗатратыСерверПереопределяемый</CommonModule>
@@ -2631,7 +2631,6 @@
 			<Document>ЭлектронноеПисьмоВходящее</Document>
 			<Document>ЭлектронноеПисьмоИсходящее</Document>
 			<Document>мв_ДокументШаблон</Document>
-			<Document>ЗагрузкаОстатков</Document>
 			<DocumentJournal>Взаимодействия</DocumentJournal>
 			<Enum>ВажностьПроблемыУчета</Enum>
 			<Enum>ВариантыВажностиВзаимодействия</Enum>
@@ -2741,7 +2740,6 @@
 			<Report>РезультатыПроверкиУчета</Report>
 			<Report>СведенияОПользователях</Report>
 			<Report>УниверсальныйОтчет</Report>
-			<Report>СверкаОстатковДенежныхСредств</Report>
 			<Report>ОстаткиИОбороты50516062</Report>
 			<Report>ВНД</Report>
 			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
@@ -2947,11 +2945,8 @@
 			<InformationRegister>УдалитьРезультатыОбменаДанными</InformationRegister>
 			<InformationRegister>УдалитьХранимыеФайлыВерсий</InformationRegister>
 			<InformationRegister>РасположениеФирм</InformationRegister>
-			<InformationRegister>ОстаткиДС8</InformationRegister>
-			<InformationRegister>ОстаткиДС7</InformationRegister>
 			<InformationRegister>СвязьОрганизаций8ИСчетов7</InformationRegister>
 			<InformationRegister>АктуальностьОрганизаций</InformationRegister>
-			<InformationRegister>Затраты8</InformationRegister>
 			<InformationRegister>Обороты8</InformationRegister>
 			<InformationRegister>Обороты7</InformationRegister>
 			<InformationRegister>ДанныеКВыгрузкеВ7</InformationRegister>
