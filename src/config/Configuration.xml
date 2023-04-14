@@ -61,7 +61,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ПолныеПрава</xr:Item>
 			</DefaultRoles>
 			<Vendor>marv-ua</Vendor>
-			<Version>23.04.13.001</Version>
+			<Version>23.04.14.001</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -1905,8 +1905,8 @@
 			<CommonModule>ЭлектроннаяПодписьСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ЭлектроннаяПодписьСлужебныйПовтИсп</CommonModule>
 			<CommonModule>ЯндексПереводчик</CommonModule>
-			<CommonModule>ЕК_ОбновлениеИнформационнойБазы</CommonModule>
-			<CommonModule>ЕК_ОбщегоНазначенияВызовСервера</CommonModule>
+			<CommonModule>ОбновлениеИнформационнойБазыМММСервис</CommonModule>
+			<CommonModule>ОбщегоНазначенияВызовСервераМММСервис</CommonModule>
 			<CommonModule>Локализация</CommonModule>
 			<CommonModule>ЛокализацияПереопределяемый</CommonModule>
 			<CommonModule>ЛокализацияПовтИсп</CommonModule>

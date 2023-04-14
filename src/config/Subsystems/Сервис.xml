@@ -61,8 +61,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПодключатьсяК7НаСервере</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Меппинг</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыДанныхМеппинга</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЕК_ОбновлениеИнформационнойБазы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЕК_ОбщегоНазначенияВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыМММСервис</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияВызовСервераМММСервис</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
