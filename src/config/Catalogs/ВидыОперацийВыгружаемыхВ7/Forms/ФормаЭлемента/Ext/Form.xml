@@ -197,6 +197,11 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
+		<InputField name="ОплатаЗаКонтрагента" id="138">
+			<DataPath>Объект.ОплатаЗаКонтрагента</DataPath>
+			<ContextMenu name="ОплатаЗаКонтрагентаКонтекстноеМеню" id="139"/>
+			<ExtendedTooltip name="ОплатаЗаКонтрагентаРасширеннаяПодсказка" id="140"/>
+		</InputField>
 		<UsualGroup name="ГруппаКудаВыгружать" id="84">
 			<Title>
 				<v8:item>

@@ -32,10 +32,10 @@
 		<Command name="Catalog.Счета7.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.ОстаткиДС8.StandardCommand.OpenList">
+		<Command name="0:c4283b00-abb2-48af-b3b7-fe2df726dea3">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.ОстаткиДС7.StandardCommand.OpenList">
+		<Command name="0:0586c753-1be1-46a9-a984-ad1ea023b607">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="InformationRegister.РасположениеФирм.StandardCommand.OpenList">
@@ -53,10 +53,10 @@
 		<Command name="Document.мв_ДокументШаблон.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Document.ЗагрузкаОстатков.StandardCommand.OpenList">
+		<Command name="0:5bc7f94b-00a8-46f7-b75d-b31f73556785">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.Затраты8.StandardCommand.OpenList">
+		<Command name="0:f0539610-5293-4259-92ee-140e7296d0e3">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="InformationRegister.Обороты7.StandardCommand.OpenList">

@@ -67,7 +67,6 @@
 			</Attribute>
 			<Form>ПолучитьОрганизацииТекущейБазы</Form>
 			<Form>ВыгрузкаОборотов50516062ВМММ</Form>
-			<Form>ОтчетЗатраты</Form>
 			<Form>ОтчетЗатратыНовый</Form>
 			<Form>ОтчетОСВ</Form>
 			<Form>НачальнаяСтраница</Form>
@@ -76,6 +75,7 @@
 			<Template>МакетобОроты50516062</Template>
 			<Template>ЛогВыгрузкиЗатрат</Template>
 			<Template>ЛогВыгрузки</Template>
+			<Template>Лог</Template>
 			<Command uuid="1b957d6b-b3b0-4824-afcd-5a7c3458c371">
 				<Properties>
 					<Name>ПолучитьОрганизацииТекущейБазы</Name>

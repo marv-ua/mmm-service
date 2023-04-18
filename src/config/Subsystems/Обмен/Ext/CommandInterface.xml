@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
 	<CommandsVisibility>
-		<Command name="Document.ЗагрузкаОстатков.StandardCommand.OpenList">
+		<Command name="0:5bc7f94b-00a8-46f7-b75d-b31f73556785">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -28,7 +28,7 @@
 		</Command>
 	</CommandsVisibility>
 	<CommandsPlacement>
-		<Command name="Document.ЗагрузкаОстатков.StandardCommand.OpenList">
+		<Command name="0:5bc7f94b-00a8-46f7-b75d-b31f73556785">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -42,7 +42,7 @@
 		</Command>
 	</CommandsPlacement>
 	<CommandsOrder>
-		<Command name="Document.ЗагрузкаОстатков.StandardCommand.OpenList">
+		<Command name="0:5bc7f94b-00a8-46f7-b75d-b31f73556785">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
 		<Command name="Catalog.Организации.StandardCommand.OpenList">
@@ -51,7 +51,7 @@
 		<Command name="InformationRegister.СвязьОрганизаций8ИСчетов7.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Document.ЗагрузкаОстатков.StandardCommand.Create">
+		<Command name="1:5bc7f94b-00a8-46f7-b75d-b31f73556785">
 			<CommandGroup>ActionsPanelCreate</CommandGroup>
 		</Command>
 		<Command name="Catalog.Организации.StandardCommand.Create">
@@ -69,7 +69,7 @@
 		<Command name="DataProcessor.МММСервис.Command.ОтчетОСВ">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
-		<Command name="Report.СверкаОстатковДенежныхСредств.StandardCommand.Open">
+		<Command name="0:7499e7da-c4f4-43d9-b4b9-9685095ededb">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
 		<Command name="CommonCommand.ЗапуститьБазуМММ">
