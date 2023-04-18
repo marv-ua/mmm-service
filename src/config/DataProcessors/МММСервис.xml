@@ -66,10 +66,10 @@
 				</Properties>
 			</Attribute>
 			<Form>ПолучитьОрганизацииТекущейБазы</Form>
-			<Form>ВыгрузкаОборотов50516062ВМММ</Form>
 			<Form>ОтчетЗатратыНовый</Form>
 			<Form>ОтчетОСВ</Form>
 			<Form>НачальнаяСтраница</Form>
+			<Form>ВыгрузкаОборотов50516062ВМММ</Form>
 			<Template>МакетЗатраты</Template>
 			<Template>МакетОСВ</Template>
 			<Template>МакетобОроты50516062</Template>

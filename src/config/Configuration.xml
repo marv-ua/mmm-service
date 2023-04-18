@@ -61,7 +61,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ПолныеПрава</xr:Item>
 			</DefaultRoles>
 			<Vendor>marv-ua</Vendor>
-			<Version>23.04.18.001</Version>
+			<Version>23.04.18.101</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -1930,8 +1930,8 @@
 			<CommonModule>БухгалтерскиеОтчетыКлиент</CommonModule>
 			<CommonModule>БухгалтерскиеОтчетыВызовСервера</CommonModule>
 			<CommonModule>БухгалтерскиеОтчетыКлиентСервер</CommonModule>
-			<CommonModule>мммОтчетОборотыОСВ</CommonModule>
 			<CommonModule>УдаленноеВыполнениеКода</CommonModule>
+			<CommonModule>мммОтчетОборотыОСВ</CommonModule>
 			<CommonAttribute>КомментарийЯзык1</CommonAttribute>
 			<CommonAttribute>КомментарийЯзык2</CommonAttribute>
 			<CommonAttribute>НаименованиеЯзык1</CommonAttribute>
