@@ -58,6 +58,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыМММСервис</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияВызовСервераМММСервис</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммОтчетОборотыОСВ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЗатратыСерверПовтИсп</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

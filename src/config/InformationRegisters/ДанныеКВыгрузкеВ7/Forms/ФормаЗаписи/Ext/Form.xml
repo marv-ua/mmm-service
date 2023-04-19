@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Период" id="1">
+			<DataPath>Запись.Period</DataPath>
+			<ContextMenu name="ПериодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<UsualGroup name="Группа3" id="44">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="45"/>
+			<ChildItems>
+				<InputField name="Организация" id="4">
+					<DataPath>Запись.Организация</DataPath>
+					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="ИНН" id="22">
+					<DataPath>Запись.ИНН</DataPath>
+					<ContextMenu name="ИННКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="24"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Документ" id="7">
+			<DataPath>Запись.Документ</DataPath>
+			<ContextMenu name="ДокументКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ДокументРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<UsualGroup name="Группа1" id="40">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<InputField name="Счет" id="10">
+					<DataPath>Запись.Счет</DataPath>
+					<ContextMenu name="СчетКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="СчетРасширеннаяПодсказка" id="12"/>
+				</InputField>
+				<InputField name="КорСчет" id="13">
+					<DataPath>Запись.КорСчет</DataPath>
+					<ContextMenu name="КорСчетКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="КорСчетРасширеннаяПодсказка" id="15"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Группа" id="16">
+			<DataPath>Запись.Группа</DataPath>
+			<ContextMenu name="ГруппаКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ГруппаРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ВидОперации" id="19">
+			<DataPath>Запись.ВидОперации</DataPath>
+			<ContextMenu name="ВидОперацииКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ВидОперацииРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="СуммаОперации" id="28">
+			<DataPath>Запись.СуммаОперации</DataPath>
+			<ContextMenu name="СуммаОперацииКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="СуммаОперацииРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<UsualGroup name="Группа2" id="42">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>_</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Collapsible</Behavior>
+			<CollapsedRepresentationTitle>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>_</v8:content>
+				</v8:item>
+			</CollapsedRepresentationTitle>
+			<Collapsed>true</Collapsed>
+			<ControlRepresentation>Picture</ControlRepresentation>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="43"/>
+			<ChildItems>
+				<InputField name="уНомерСтроки" id="25">
+					<DataPath>Запись.уНомерСтроки</DataPath>
+					<ContextMenu name="уНомерСтрокиКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="уНомерСтрокиРасширеннаяПодсказка" id="27"/>
+				</InputField>
+				<InputField name="Статус" id="31">
+					<DataPath>Запись.Статус</DataPath>
+					<ContextMenu name="СтатусКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="33"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ОшибкаВыгрузки" id="34">
+			<DataPath>Запись.ОшибкаВыгрузки</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки</v8:content>
+				</v8:item>
+			</Title>
+			<Width>50</Width>
+			<Height>3</Height>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="ОшибкаВыгрузкиКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="ОшибкаВыгрузкиРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<InputField name="Комментарий" id="37">
+			<DataPath>Запись.Комментарий</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комментарии</v8:content>
+				</v8:item>
+			</Title>
+			<Width>50</Width>
+			<Height>2</Height>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="39"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ДанныеКВыгрузкеВ7</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
