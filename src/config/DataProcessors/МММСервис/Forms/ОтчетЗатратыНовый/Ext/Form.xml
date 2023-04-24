@@ -273,44 +273,56 @@
 							</ToolTip>
 							<ExtendedTooltip name="СтраницаДанныеРасширеннаяПодсказка" id="88"/>
 							<ChildItems>
-								<UsualGroup name="Группа2" id="210">
-									<Representation>NormalSeparation</Representation>
+								<UsualGroup name="Группа5" id="232">
+									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="211"/>
+									<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="233"/>
 									<ChildItems>
-										<CheckBoxField name="Затирать" id="207">
-											<DataPath>Затирать</DataPath>
-											<TitleLocation>None</TitleLocation>
-											<CheckBoxType>Tumbler</CheckBoxType>
-											<EditFormat>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>БЛ='Дополнять суммы'; БИ='Перезаписывать суммы'</v8:content>
-												</v8:item>
-											</EditFormat>
-											<ContextMenu name="ЗатиратьКонтекстноеМеню" id="208"/>
-											<ExtendedTooltip name="ЗатиратьРасширеннаяПодсказка" id="209"/>
-										</CheckBoxField>
-										<CheckBoxField name="НеЗатиратьОтправленные" id="204">
-											<DataPath>НеЗатиратьОтправленные</DataPath>
-											<Visible>false</Visible>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Не затирать отправленные при повторном формировании отчета</v8:content>
-												</v8:item>
-											</Title>
-											<TitleLocation>None</TitleLocation>
-											<CheckBoxType>Tumbler</CheckBoxType>
-											<EditFormat>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>БЛ='Очистка при заполнении'; БИ='Не затирать отправленные'</v8:content>
-												</v8:item>
-											</EditFormat>
-											<ContextMenu name="НеЗатиратьОтправленныеКонтекстноеМеню" id="205"/>
-											<ExtendedTooltip name="НеЗатиратьОтправленныеРасширеннаяПодсказка" id="206"/>
-										</CheckBoxField>
+										<UsualGroup name="Группа2" id="210">
+											<Representation>NormalSeparation</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="211"/>
+											<ChildItems>
+												<CheckBoxField name="Затирать" id="207">
+													<DataPath>Затирать</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<CheckBoxType>Tumbler</CheckBoxType>
+													<EditFormat>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>БЛ='Дополнять суммы'; БИ='Перезаписывать суммы'</v8:content>
+														</v8:item>
+													</EditFormat>
+													<ContextMenu name="ЗатиратьКонтекстноеМеню" id="208"/>
+													<ExtendedTooltip name="ЗатиратьРасширеннаяПодсказка" id="209"/>
+												</CheckBoxField>
+												<CheckBoxField name="НеЗатиратьОтправленные" id="204">
+													<DataPath>НеЗатиратьОтправленные</DataPath>
+													<Visible>false</Visible>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Не затирать отправленные при повторном формировании отчета</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>None</TitleLocation>
+													<CheckBoxType>Tumbler</CheckBoxType>
+													<EditFormat>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>БЛ='Очистка при заполнении'; БИ='Не затирать отправленные'</v8:content>
+														</v8:item>
+													</EditFormat>
+													<ContextMenu name="НеЗатиратьОтправленныеКонтекстноеМеню" id="205"/>
+													<ExtendedTooltip name="НеЗатиратьОтправленныеРасширеннаяПодсказка" id="206"/>
+												</CheckBoxField>
+											</ChildItems>
+										</UsualGroup>
+										<Button name="ЗаполнитьУслугиСтороннихОрганизаций" id="230">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ЗаполнитьУслугиСтороннихОрганизаций</CommandName>
+											<ExtendedTooltip name="ЗаполнитьУслугиСтороннихОрганизацийРасширеннаяПодсказка" id="231"/>
+										</Button>
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="Группа3" id="212">
@@ -893,6 +905,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОчиститьВсеСтатусы</Action>
+		</Command>
+		<Command name="ЗаполнитьУслугиСтороннихОрганизаций" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить усл. стор. орг.</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить услуги сторонних организаций</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьУслугиСтороннихОрганизаций</Action>
 		</Command>
 	</Commands>
 </Form>
