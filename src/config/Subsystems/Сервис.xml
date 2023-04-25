@@ -40,7 +40,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Обороты7</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммОтчетЗатратыСерверПереопределяемый</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЗатратыКлиент</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммОтчетОСВСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОтчетОСВВызовСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЗатратыСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДанныеКВыгрузкеВ7</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыОперацийВыгружаемыхВ7</xr:Item>
@@ -56,8 +56,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Меппинг</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыДанныхМеппинга</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыМММСервис</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияВызовСервераМММСервис</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммОтчетОборотыОСВ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ef8cb6ac-5767-404d-9b5b-27631815d396</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">8fe40275-4161-4775-b8e8-2b55853cc19f</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЗатратыСерверПовтИсп</xr:Item>
 			</Content>
 		</Properties>
