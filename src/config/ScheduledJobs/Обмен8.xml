@@ -10,7 +10,7 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<MethodName>CommonModule.мммОтчетОСВСервер.Обмен8</MethodName>
+			<MethodName>CommonModule.ОтчетОСВВызовСервера.Обмен8</MethodName>
 			<Description>Обмен 1С8</Description>
 			<Key/>
 			<Use>false</Use>
