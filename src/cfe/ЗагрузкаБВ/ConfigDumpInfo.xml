@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.10">
+	<ConfigVersions>
+		<Metadata name="CommonModule.ЗагрузкаВыпискиПоБанковскомуСчету" id="520cc52b-e684-4579-a8b0-377a43c81730" configVersion="4a358038714efe57a538906b194d7deff3277efc"/>
+		<Metadata name="CommonModule.ЗагрузкаВыпискиПоБанковскомуСчету.Module" id="520cc52b-e684-4579-a8b0-377a43c81730.0" configVersion="63395d2a89fb24dc7146b0c97e30241c3b4f7e89"/>
+		<Metadata name="Configuration.ЗагрузкаБВ" id="cd4d31f5-4d28-4ab3-a8d2-cfabeca6509c" configVersion="91198dff3df45a2bc303f7e3e07da24470d672ca"/>
+		<Metadata name="Language.Русский" id="730ce069-bee6-4664-a73e-d9ca9a021229" configVersion="7b1614a1870f39e30c351f5bf096b9d3c587a014"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
