@@ -61,7 +61,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ПолныеПрава</xr:Item>
 			</DefaultRoles>
 			<Vendor>marv-ua</Vendor>
-			<Version>23.04.24.006</Version>
+			<Version>23.04.27.001</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -1906,6 +1906,7 @@
 			<CommonModule>ЭлектроннаяПодписьСлужебныйПовтИсп</CommonModule>
 			<CommonModule>ЯндексПереводчик</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыМММСервис</CommonModule>
+			<CommonModule>ОбновлениеИБ</CommonModule>
 			<CommonModule>Локализация</CommonModule>
 			<CommonModule>ЛокализацияПереопределяемый</CommonModule>
 			<CommonModule>ЛокализацияПовтИсп</CommonModule>
@@ -1920,12 +1921,11 @@
 			<CommonModule>ЗарплатаКадрыКлиентСервер</CommonModule>
 			<CommonModule>ВыборПериодаКлиент</CommonModule>
 			<CommonModule>ВыборПериодаКлиентСервер</CommonModule>
-			<CommonModule>ЗатратыСервер</CommonModule>
-			<CommonModule>ЗатратыСерверПовтИсп</CommonModule>
 			<CommonModule>ЗатратыКлиент</CommonModule>
 			<CommonModule>ЗатратыКлиентСервер</CommonModule>
-			<CommonModule>мммОтчетЗатратыСервер</CommonModule>
-			<CommonModule>мммОтчетЗатратыСерверПереопределяемый</CommonModule>
+			<CommonModule>ЗатратыСервер</CommonModule>
+			<CommonModule>ЗатратыСерверПереопределяемый</CommonModule>
+			<CommonModule>ЗатратыСерверПовтИсп</CommonModule>
 			<CommonModule>ОтчетОСВВызовСервера</CommonModule>
 			<CommonModule>БухгалтерскиеОтчетыКлиент</CommonModule>
 			<CommonModule>БухгалтерскиеОтчетыВызовСервера</CommonModule>
