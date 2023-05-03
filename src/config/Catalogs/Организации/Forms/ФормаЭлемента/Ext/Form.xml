@@ -170,6 +170,7 @@
 			<ChildItems>
 				<InputField name="Бухгалтер" id="74">
 					<DataPath>Объект.Бухгалтер</DataPath>
+					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="БухгалтерКонтекстноеМеню" id="75"/>
 					<ExtendedTooltip name="БухгалтерРасширеннаяПодсказка" id="76"/>
 				</InputField>
@@ -252,7 +253,14 @@
 					<ChildItems>
 						<InputField name="КодБСВМММ" id="40">
 							<DataPath>Объект.КодБСВМММ</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>б/с МММ</v8:content>
+								</v8:item>
+							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="КодБСВМММКонтекстноеМеню" id="41"/>
 							<ExtendedTooltip name="КодБСВМММРасширеннаяПодсказка" id="42"/>
 							<Events>
@@ -293,6 +301,7 @@
 									<v8:content>Группа текущее расположение</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Group>Vertical</Group>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаТекущееРасположениеРасширеннаяПодсказка" id="53"/>
 							<ChildItems>
