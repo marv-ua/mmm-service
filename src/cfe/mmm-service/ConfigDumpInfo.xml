@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.10">
+	<ConfigVersions>
+		<Metadata name="CommonModule.ммм_Сервер" id="3e2f0ada-9432-4467-a5da-77e0735d93a9" configVersion="b7be8f44553eb154e20f5c439df9d15e295f8d78"/>
+		<Metadata name="CommonModule.ммм_Сервер.Module" id="3e2f0ada-9432-4467-a5da-77e0735d93a9.0" configVersion="936d275b340a1b9144d16da8dc78daeaaf9ad4ae"/>
+		<Metadata name="Configuration.MMMservice" id="205c60b3-7ee4-455d-802f-994ef21c975c" configVersion="5817718a639d1e1f981e5a7973c84928fa0c5169"/>
+		<Metadata name="Language.Русский" id="43d560e9-5dee-4e4a-a191-34230c0f8e5e" configVersion="4aad0bc82bcb47f2cf3f736dc867146363900d49"/>
+		<Metadata name="Subsystem.MMMservice" id="9a7b216e-8464-4b77-a117-3d309e5e8c3d" configVersion="5a2831c6e0541653b9fb3d831a10cbaa96020487"/>
+		<Metadata name="WebService.MMMservice" id="006fb290-8a4b-4941-9c9b-fed31166111a" configVersion="461f620c14a70df99c0a007ceee84c5eb447a68b">
+			<Metadata name="WebService.MMMservice.Operation.RunCode" id="11e0295d-a75b-4c2c-a404-67adbc796b36"/>
+			<Metadata name="WebService.MMMservice.Operation.RunCode.Parameter.strCode" id="3a6f73a9-1942-4b30-b0ca-ea9db3ae2c0e"/>
+			<Metadata name="WebService.MMMservice.Operation.RunQuery" id="3e30da2e-96c9-449a-9b29-ce5d86703161"/>
+			<Metadata name="WebService.MMMservice.Operation.RunQuery.Parameter.strQuery" id="420674f8-9d76-45f1-8dae-1b2002bce375"/>
+		</Metadata>
+		<Metadata name="WebService.MMMservice.Module" id="006fb290-8a4b-4941-9c9b-fed31166111a.0" configVersion="fa77aa992a9b00d0f683edfdbf4dda0f62b90718"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
