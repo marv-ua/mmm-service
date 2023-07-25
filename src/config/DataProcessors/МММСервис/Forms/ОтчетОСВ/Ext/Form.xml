@@ -34,37 +34,64 @@
 			<ExtendedTooltip name="ГруппаДатаОстатковТипПродуктаРасширеннаяПодсказка" id="4"/>
 			<ChildItems>
 				<UsualGroup name="Группа1" id="86">
+					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="87"/>
 					<ChildItems>
-						<InputField name="МесяцРегистрацииСтрокой" id="5">
-							<DataPath>МесяцРегистрацииСтрокой</DataPath>
-							<ChoiceButton>true</ChoiceButton>
-							<SpinButton>true</SpinButton>
-							<ContextMenu name="МесяцРегистрацииСтрокойКонтекстноеМеню" id="6"/>
-							<ExtendedTooltip name="МесяцРегистрацииСтрокойРасширеннаяПодсказка" id="7"/>
-							<Events>
-								<Event name="OnChange">МесяцРегистрацииСтрокойПриИзменении</Event>
-								<Event name="AutoComplete">МесяцРегистрацииСтрокойАвтоПодбор</Event>
-								<Event name="StartChoice">МесяцРегистрацииСтрокойНачалоВыбора</Event>
-								<Event name="Tuning">МесяцРегистрацииСтрокойРегулирование</Event>
-								<Event name="TextEditEnd">МесяцРегистрацииСтрокойОкончаниеВводаТекста</Event>
-							</Events>
-						</InputField>
-						<InputField name="Организация" id="8">
-							<DataPath>Организация</DataPath>
-							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="9"/>
-							<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="10"/>
-						</InputField>
+						<UsualGroup name="Группа3" id="95">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="96"/>
+							<ChildItems>
+								<InputField name="МесяцРегистрацииСтрокой" id="5">
+									<DataPath>МесяцРегистрацииСтрокой</DataPath>
+									<ChoiceButton>true</ChoiceButton>
+									<SpinButton>true</SpinButton>
+									<ContextMenu name="МесяцРегистрацииСтрокойКонтекстноеМеню" id="6"/>
+									<ExtendedTooltip name="МесяцРегистрацииСтрокойРасширеннаяПодсказка" id="7"/>
+									<Events>
+										<Event name="OnChange">МесяцРегистрацииСтрокойПриИзменении</Event>
+										<Event name="AutoComplete">МесяцРегистрацииСтрокойАвтоПодбор</Event>
+										<Event name="StartChoice">МесяцРегистрацииСтрокойНачалоВыбора</Event>
+										<Event name="Tuning">МесяцРегистрацииСтрокойРегулирование</Event>
+										<Event name="TextEditEnd">МесяцРегистрацииСтрокойОкончаниеВводаТекста</Event>
+									</Events>
+								</InputField>
+								<InputField name="Организация" id="8">
+									<DataPath>Организация</DataPath>
+									<ContextMenu name="ОрганизацияКонтекстноеМеню" id="9"/>
+									<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="10"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа2" id="93">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="94"/>
+							<ChildItems>
+								<InputField name="КодСчета" id="83">
+									<DataPath>КодСчета</DataPath>
+									<Mask>@@@.@@.@</Mask>
+									<ContextMenu name="КодСчетаКонтекстноеМеню" id="84"/>
+									<ExtendedTooltip name="КодСчетаРасширеннаяПодсказка" id="85"/>
+								</InputField>
+								<InputField name="ОтборСубконто" id="90">
+									<DataPath>ОтборСубконто</DataPath>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>будет применено условие ПОДОБНО (для поиска соответствия группы). Далее выборка всех В ИЕРАРХИИ</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<ContextMenu name="ОтборСубконтоКонтекстноеМеню" id="91"/>
+									<ExtendedTooltip name="ОтборСубконтоРасширеннаяПодсказка" id="92"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
-				<InputField name="КодСчета" id="83">
-					<DataPath>КодСчета</DataPath>
-					<Mask>@@@.@@.@</Mask>
-					<ContextMenu name="КодСчетаКонтекстноеМеню" id="84"/>
-					<ExtendedTooltip name="КодСчетаРасширеннаяПодсказка" id="85"/>
-				</InputField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаОтчет" id="11">
@@ -192,6 +219,11 @@
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СохранитьРасширеннаяПодсказка" id="32"/>
+								</Button>
+								<Button name="ПередатьВ7" id="88">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.ПередатьВ7</CommandName>
+									<ExtendedTooltip name="ПередатьВ7РасширеннаяПодсказка" id="89"/>
 								</Button>
 							</ChildItems>
 						</CommandBar>
@@ -396,6 +428,21 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="ОтборСубконто" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Субконто</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>50</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="Сформировать" id="1">
@@ -412,6 +459,26 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Сформировать</Action>
+		</Command>
+		<Command name="ПередатьВ7" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Передать в 7</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Передать в7</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ВходящееСообщение</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ПередатьВ7</Action>
+			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
 </Form>

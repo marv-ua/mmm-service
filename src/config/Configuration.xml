@@ -61,7 +61,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ПолныеПрава</xr:Item>
 			</DefaultRoles>
 			<Vendor>marv-ua</Vendor>
-			<Version>23.04.27.005</Version>
+			<Version>23.07.01.021</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -1986,6 +1986,8 @@
 			<WebService>RemoteAdministrationOfExchange_2_1_6_1</WebService>
 			<WebService>RemoteAdministrationOfExchange_2_4_5_1</WebService>
 			<WebService>RemoteControl</WebService>
+			<WebService>MMMservice</WebService>
+			<WSReference>WSRef</WSReference>
 			<EventSubscription>АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанных</EventSubscription>
 			<EventSubscription>АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхДокумент</EventSubscription>
 			<EventSubscription>АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхКонстанта</EventSubscription>
@@ -2621,6 +2623,7 @@
 			<Catalog>Счета7</Catalog>
 			<Catalog>ВидыОперацийВыгружаемыхВ7</Catalog>
 			<Catalog>ОтветственныеБухгалтеры</Catalog>
+			<Catalog>ВидыМониторинга</Catalog>
 			<Document>Анкета</Document>
 			<Document>Встреча</Document>
 			<Document>ЗапланированноеВзаимодействие</Document>
@@ -2803,6 +2806,7 @@
 			<DataProcessor>ПомощникОбновленияДополнительныхОтчетовИОбработок</DataProcessor>
 			<DataProcessor>МММСервис</DataProcessor>
 			<DataProcessor>ВыполнениеРегламентныхЗаданийНаКлиенте</DataProcessor>
+			<DataProcessor>Мониторинг</DataProcessor>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанныхОбластейДанных</InformationRegister>
 			<InformationRegister>БлокировкиСеансовОбластейДанных</InformationRegister>
@@ -2952,6 +2956,7 @@
 			<InformationRegister>ВыполняемыйКодВБазах</InformationRegister>
 			<InformationRegister>ОрганизацииКассы</InformationRegister>
 			<InformationRegister>Меппинг</InformationRegister>
+			<InformationRegister>ДанныеСистемыМониторинга</InformationRegister>
 			<ChartOfCharacteristicTypes>ВопросыДляАнкетирования</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ОбъектыАдресацииЗадач</ChartOfCharacteristicTypes>
