@@ -32,7 +32,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммКлиентСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ef3d630a-1e0e-4a78-ad00-ad2a0c1ff104</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АктуальностьОрганизаций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.АвтоматическиЗаписыватьОстаткиПриФОрмированииОтчетов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Обороты8</xr:Item>
@@ -58,8 +57,13 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыМММСервис</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЗатратыСерверПовтИсп</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИБ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Мониторинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДанныеСистемыМониторинга</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">WebService.MMMservice</xr:Item>
 			</Content>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Subsystem>Мониторинг</Subsystem>
+		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap12bind="http://schemas.xmlsoap.org/wsdl/soap12/"
+		xmlns:soapbind="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:tns="http://www.1c.ru"
+		xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+		xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsd1="http://www.1c.ru"
+		name="MMMservice"
+		targetNamespace="http://www.1c.ru">
+	<types>
+		<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+				xmlns:xs1="http://www.1c.ru"
+				targetNamespace="http://www.1c.ru"
+				elementFormDefault="qualified">
+			<xs:element name="RunQuery">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="strQuery"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="RunQueryResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="RunCode">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="strCode"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="RunCodeResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="CallMethod">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Method"
+								type="xs:string"/>
+						<xs:element name="Object"
+								type="xs:string"/>
+						<xs:element name="Period"
+								type="xs:date"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="CallMethodResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:schema>
+	</types>
+	<message name="RunQueryRequestMessage">
+		<part name="parameters"
+				element="tns:RunQuery"/>
+	</message>
+	<message name="RunQueryResponseMessage">
+		<part name="parameters"
+				element="tns:RunQueryResponse"/>
+	</message>
+	<message name="RunCodeRequestMessage">
+		<part name="parameters"
+				element="tns:RunCode"/>
+	</message>
+	<message name="RunCodeResponseMessage">
+		<part name="parameters"
+				element="tns:RunCodeResponse"/>
+	</message>
+	<message name="CallMethodRequestMessage">
+		<part name="parameters"
+				element="tns:CallMethod"/>
+	</message>
+	<message name="CallMethodResponseMessage">
+		<part name="parameters"
+				element="tns:CallMethodResponse"/>
+	</message>
+	<portType name="MMMservicePortType">
+		<operation name="RunQuery">
+			<input name="RunQueryRequest"
+					message="tns:RunQueryRequestMessage"/>
+			<output name="RunQueryResponse"
+					message="tns:RunQueryResponseMessage"/>
+		</operation>
+		<operation name="RunCode">
+			<input name="RunCodeRequest"
+					message="tns:RunCodeRequestMessage"/>
+			<output name="RunCodeResponse"
+					message="tns:RunCodeResponseMessage"/>
+		</operation>
+		<operation name="CallMethod">
+			<input name="CallMethodRequest"
+					message="tns:CallMethodRequestMessage"/>
+			<output name="CallMethodResponse"
+					message="tns:CallMethodResponseMessage"/>
+		</operation>
+	</portType>
+	<binding name="MMMserviceSoapBinding"
+			type="tns:MMMservicePortType">
+		<soapbind:binding style="document"
+				transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="RunQuery">
+			<soapbind:operation style="document"
+					soapAction="http://www.1c.ru#MMMservice:RunQuery"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="RunCode">
+			<soapbind:operation style="document"
+					soapAction="http://www.1c.ru#MMMservice:RunCode"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="CallMethod">
+			<soapbind:operation style="document"
+					soapAction="http://www.1c.ru#MMMservice:CallMethod"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<binding name="MMMserviceSoap12Binding"
+			type="tns:MMMservicePortType">
+		<soap12bind:binding style="document"
+				transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="RunQuery">
+			<soap12bind:operation style="document"
+					soapAction="http://www.1c.ru#MMMservice:RunQuery"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="RunCode">
+			<soap12bind:operation style="document"
+					soapAction="http://www.1c.ru#MMMservice:RunCode"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="CallMethod">
+			<soap12bind:operation style="document"
+					soapAction="http://www.1c.ru#MMMservice:CallMethod"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<service name="MMMservice">
+		<port name="MMMserviceSoap"
+				binding="tns:MMMserviceSoapBinding">
+			<documentation> 
+				<wsi:Claim xmlns:wsi="http://ws-i.org/schemas/conformanceClaim/"
+						conformsTo="http://ws-i.org/profiles/basic/1.1"/>
+			</documentation>
+			<soapbind:address location="http://localhost/MMMService/ws/mmmservice.1cws"/>
+		</port>
+		<port name="MMMserviceSoap12"
+				binding="tns:MMMserviceSoap12Binding">
+			<soap12bind:address location="http://localhost/MMMService/ws/mmmservice.1cws"/>
+		</port>
+	</service>
+</definitions>
