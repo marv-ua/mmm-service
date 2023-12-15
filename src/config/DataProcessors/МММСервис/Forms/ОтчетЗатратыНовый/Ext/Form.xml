@@ -134,6 +134,20 @@
 							<Behavior>PopUp</Behavior>
 							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="223"/>
 							<ChildItems>
+								<CheckBoxField name="РасширенныеИтоги" id="234">
+									<DataPath>РасширенныеИтоги</DataPath>
+									<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<CheckBoxType>Switcher</CheckBoxType>
+									<ContextMenu name="РасширенныеИтогиКонтекстноеМеню" id="235"/>
+									<ExtendedTooltip name="РасширенныеИтогиРасширеннаяПодсказка" id="236"/>
+								</CheckBoxField>
+								<CheckBoxField name="НеФормироватьДанныеДляВыгрузки" id="219">
+									<DataPath>НеФормироватьДанныеДляВыгрузки</DataPath>
+									<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<CheckBoxType>Switcher</CheckBoxType>
+									<ContextMenu name="НеФормироватьДанныеДляВыгрузкиКонтекстноеМеню" id="220"/>
+									<ExtendedTooltip name="НеФормироватьДанныеДляВыгрузкиРасширеннаяПодсказка" id="221"/>
+								</CheckBoxField>
 								<CheckBoxField name="ТолькоДанныеВыгрузки" id="216">
 									<DataPath>ТолькоДанныеВыгрузки</DataPath>
 									<Title>
@@ -145,12 +159,6 @@
 									<CheckBoxType>Switcher</CheckBoxType>
 									<ContextMenu name="ТолькоДанныеВыгрузкиКонтекстноеМеню" id="217"/>
 									<ExtendedTooltip name="ТолькоДанныеВыгрузкиРасширеннаяПодсказка" id="218"/>
-								</CheckBoxField>
-								<CheckBoxField name="НеФормироватьДанныеДляВыгрузки" id="219">
-									<DataPath>НеФормироватьДанныеДляВыгрузки</DataPath>
-									<CheckBoxType>Switcher</CheckBoxType>
-									<ContextMenu name="НеФормироватьДанныеДляВыгрузкиКонтекстноеМеню" id="220"/>
-									<ExtendedTooltip name="НеФормироватьДанныеДляВыгрузкиРасширеннаяПодсказка" id="221"/>
 								</CheckBoxField>
 							</ChildItems>
 						</UsualGroup>
@@ -827,6 +835,20 @@
 			</Type>
 			<Save>
 				<Field>ПутьКФайлам</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="РасширенныеИтоги" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расширенные итоги</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>РасширенныеИтоги</Field>
 			</Save>
 		</Attribute>
 	</Attributes>
