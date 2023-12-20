@@ -21,7 +21,7 @@
 	</languageSettings>
 	<columns>
 		<formatIndex>1</formatIndex>
-		<size>198</size>
+		<size>193</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -5487,7 +5487,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>материалы</v8:content>
+							<v8:content>прочие</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -5499,25 +5499,13 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>прочие</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<i>123</i>
-				<c>
-					<f>76</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
 							<v8:content>итого</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
-				<i>128</i>
+				<i>123</i>
 				<c>
 					<f>77</f>
 					<tl>
@@ -5529,7 +5517,7 @@
 				</c>
 			</c>
 			<c>
-				<i>133</i>
+				<i>128</i>
 				<c>
 					<f>78</f>
 					<tl>
@@ -5541,7 +5529,7 @@
 				</c>
 			</c>
 			<c>
-				<i>138</i>
+				<i>133</i>
 				<c>
 					<f>78</f>
 					<tl>
@@ -5553,7 +5541,7 @@
 				</c>
 			</c>
 			<c>
-				<i>143</i>
+				<i>138</i>
 				<c>
 					<f>78</f>
 					<tl>
@@ -5565,7 +5553,7 @@
 				</c>
 			</c>
 			<c>
-				<i>148</i>
+				<i>143</i>
 				<c>
 					<f>78</f>
 					<tl>
@@ -5577,7 +5565,7 @@
 				</c>
 			</c>
 			<c>
-				<i>153</i>
+				<i>148</i>
 				<c>
 					<f>78</f>
 					<tl>
@@ -5589,7 +5577,7 @@
 				</c>
 			</c>
 			<c>
-				<i>158</i>
+				<i>153</i>
 				<c>
 					<f>78</f>
 					<tl>
@@ -5601,7 +5589,7 @@
 				</c>
 			</c>
 			<c>
-				<i>163</i>
+				<i>158</i>
 				<c>
 					<f>78</f>
 					<tl>
@@ -5613,7 +5601,7 @@
 				</c>
 			</c>
 			<c>
-				<i>168</i>
+				<i>163</i>
 				<c>
 					<f>78</f>
 					<tl>
@@ -5625,7 +5613,7 @@
 				</c>
 			</c>
 			<c>
-				<i>173</i>
+				<i>168</i>
 				<c>
 					<f>78</f>
 					<tl>
@@ -5637,7 +5625,7 @@
 				</c>
 			</c>
 			<c>
-				<i>178</i>
+				<i>173</i>
 				<c>
 					<f>78</f>
 					<tl>
@@ -5649,7 +5637,7 @@
 				</c>
 			</c>
 			<c>
-				<i>183</i>
+				<i>178</i>
 				<c>
 					<f>78</f>
 					<tl>
@@ -5661,7 +5649,7 @@
 				</c>
 			</c>
 			<c>
-				<i>188</i>
+				<i>183</i>
 				<c>
 					<f>78</f>
 					<tl>
@@ -5673,7 +5661,7 @@
 				</c>
 			</c>
 			<c>
-				<i>193</i>
+				<i>188</i>
 				<c>
 					<f>79</f>
 					<tl>
@@ -5928,32 +5916,6 @@
 			</c>
 			<c>
 				<i>113</i>
-				<c>
-					<f>86</f>
-					<parameter>ПриходМатериалы</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>4</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>4</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>4</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>4</f>
-				</c>
-			</c>
-			<c>
 				<c>
 					<f>86</f>
 					<parameter>ПриходПрочие</parameter>
@@ -6717,32 +6679,6 @@
 				<c>
 					<f>87</f>
 					<parameter>ПриходСТорно</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>4</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>4</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>4</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>4</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>87</f>
-					<parameter>ПриходМатериалы</parameter>
 				</c>
 			</c>
 			<c>
@@ -8586,11 +8522,6 @@
 		<w>4</w>
 	</merge>
 	<merge>
-		<r>58</r>
-		<c>193</c>
-		<w>4</w>
-	</merge>
-	<merge>
 		<r>59</r>
 		<c>1</c>
 		<w>2</w>
@@ -8781,11 +8712,6 @@
 		<w>4</w>
 	</merge>
 	<merge>
-		<r>59</r>
-		<c>193</c>
-		<w>4</w>
-	</merge>
-	<merge>
 		<r>60</r>
 		<c>43</c>
 		<w>4</w>
@@ -8936,11 +8862,6 @@
 		<w>4</w>
 	</merge>
 	<merge>
-		<r>60</r>
-		<c>193</c>
-		<w>4</w>
-	</merge>
-	<merge>
 		<r>65</r>
 		<c>35</c>
 		<w>4</w>
@@ -9027,7 +8948,7 @@
 			<beginRow>-1</beginRow>
 			<endRow>-1</endRow>
 			<beginColumn>63</beginColumn>
-			<endColumn>197</endColumn>
+			<endColumn>192</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
