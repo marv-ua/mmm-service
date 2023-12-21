@@ -21,7 +21,7 @@
 	</languageSettings>
 	<columns>
 		<formatIndex>1</formatIndex>
-		<size>193</size>
+		<size>203</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -5672,6 +5672,50 @@
 					</tl>
 				</c>
 			</c>
+			<c>
+				<i>193</i>
+				<c>
+					<f>80</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Затраты</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>198</i>
+				<c>
+					<f>75</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Затр + м-лы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -5684,43 +5728,43 @@
 			</c>
 			<c>
 				<c>
-					<f>80</f>
+					<f>81</f>
 				</c>
 			</c>
 			<c>
 				<i>4</i>
 				<c>
-					<f>81</f>
+					<f>82</f>
 				</c>
 			</c>
 			<c>
 				<i>9</i>
 				<c>
-					<f>80</f>
+					<f>81</f>
 				</c>
 			</c>
 			<c>
 				<i>12</i>
 				<c>
-					<f>80</f>
+					<f>81</f>
 				</c>
 			</c>
 			<c>
 				<i>17</i>
 				<c>
-					<f>80</f>
+					<f>81</f>
 				</c>
 			</c>
 			<c>
 				<i>22</i>
 				<c>
-					<f>80</f>
+					<f>81</f>
 				</c>
 			</c>
 			<c>
 				<i>35</i>
 				<c>
-					<f>82</f>
+					<f>83</f>
 					<parameter>нпп</parameter>
 				</c>
 			</c>
@@ -5736,7 +5780,7 @@
 			</c>
 			<c>
 				<c>
-					<f>83</f>
+					<f>84</f>
 					<parameter>Фирма</parameter>
 				</c>
 			</c>
@@ -5762,7 +5806,7 @@
 			</c>
 			<c>
 				<c>
-					<f>84</f>
+					<f>85</f>
 					<parameter>СуммаНачало</parameter>
 				</c>
 			</c>
@@ -5847,77 +5891,77 @@
 			</c>
 			<c>
 				<c>
-					<f>85</f>
+					<f>86</f>
 					<parameter>ПриходКасса</parameter>
 				</c>
 			</c>
 			<c>
 				<i>68</i>
 				<c>
-					<f>85</f>
+					<f>86</f>
 					<parameter>ПриходРеализация</parameter>
 				</c>
 			</c>
 			<c>
 				<i>73</i>
 				<c>
-					<f>85</f>
+					<f>86</f>
 					<parameter>ПриходУчредит</parameter>
 				</c>
 			</c>
 			<c>
 				<i>78</i>
 				<c>
-					<f>85</f>
+					<f>86</f>
 					<parameter>ПриходУниверс</parameter>
 				</c>
 			</c>
 			<c>
 				<i>83</i>
 				<c>
-					<f>85</f>
+					<f>86</f>
 					<parameter>ПриходОфис</parameter>
 				</c>
 			</c>
 			<c>
 				<i>88</i>
 				<c>
-					<f>85</f>
+					<f>86</f>
 					<parameter>ПриходМальч</parameter>
 				</c>
 			</c>
 			<c>
 				<i>93</i>
 				<c>
-					<f>85</f>
+					<f>86</f>
 					<parameter>ПриходВНД</parameter>
 				</c>
 			</c>
 			<c>
 				<i>98</i>
 				<c>
-					<f>85</f>
+					<f>86</f>
 					<parameter>Приход57</parameter>
 				</c>
 			</c>
 			<c>
 				<i>103</i>
 				<c>
-					<f>85</f>
+					<f>86</f>
 					<parameter>ПриходВозврат</parameter>
 				</c>
 			</c>
 			<c>
 				<i>108</i>
 				<c>
-					<f>85</f>
+					<f>86</f>
 					<parameter>ПриходСТорно</parameter>
 				</c>
 			</c>
 			<c>
 				<i>113</i>
 				<c>
-					<f>86</f>
+					<f>87</f>
 					<parameter>ПриходПрочие</parameter>
 				</c>
 			</c>
@@ -5943,7 +5987,7 @@
 			</c>
 			<c>
 				<c>
-					<f>87</f>
+					<f>88</f>
 					<parameter>ИтогоПриход</parameter>
 				</c>
 			</c>
@@ -5969,7 +6013,7 @@
 			</c>
 			<c>
 				<c>
-					<f>88</f>
+					<f>89</f>
 					<parameter>ПроверкаПриход</parameter>
 				</c>
 			</c>
@@ -5995,7 +6039,7 @@
 			</c>
 			<c>
 				<c>
-					<f>89</f>
+					<f>90</f>
 					<parameter>РасходКасса</parameter>
 				</c>
 			</c>
@@ -6021,7 +6065,7 @@
 			</c>
 			<c>
 				<c>
-					<f>89</f>
+					<f>90</f>
 					<parameter>РасходНалоги</parameter>
 				</c>
 			</c>
@@ -6047,7 +6091,7 @@
 			</c>
 			<c>
 				<c>
-					<f>89</f>
+					<f>90</f>
 					<parameter>РасходЗП</parameter>
 				</c>
 			</c>
@@ -6073,7 +6117,7 @@
 			</c>
 			<c>
 				<c>
-					<f>89</f>
+					<f>90</f>
 					<parameter>РасходУслуги</parameter>
 				</c>
 			</c>
@@ -6099,7 +6143,7 @@
 			</c>
 			<c>
 				<c>
-					<f>89</f>
+					<f>90</f>
 					<parameter>РасходТовар</parameter>
 				</c>
 			</c>
@@ -6125,7 +6169,7 @@
 			</c>
 			<c>
 				<c>
-					<f>89</f>
+					<f>90</f>
 					<parameter>РасходМатериалы</parameter>
 				</c>
 			</c>
@@ -6151,7 +6195,7 @@
 			</c>
 			<c>
 				<c>
-					<f>89</f>
+					<f>90</f>
 					<parameter>РасходУниверс</parameter>
 				</c>
 			</c>
@@ -6177,7 +6221,7 @@
 			</c>
 			<c>
 				<c>
-					<f>89</f>
+					<f>90</f>
 					<parameter>РасходОфис</parameter>
 				</c>
 			</c>
@@ -6203,7 +6247,7 @@
 			</c>
 			<c>
 				<c>
-					<f>89</f>
+					<f>90</f>
 					<parameter>РасходМальч</parameter>
 				</c>
 			</c>
@@ -6229,7 +6273,7 @@
 			</c>
 			<c>
 				<c>
-					<f>89</f>
+					<f>90</f>
 					<parameter>Расход57</parameter>
 				</c>
 			</c>
@@ -6255,7 +6299,7 @@
 			</c>
 			<c>
 				<c>
-					<f>89</f>
+					<f>90</f>
 					<parameter>РасходПрочие</parameter>
 				</c>
 			</c>
@@ -6281,7 +6325,7 @@
 			</c>
 			<c>
 				<c>
-					<f>90</f>
+					<f>91</f>
 					<parameter>ИтогоРасход</parameter>
 				</c>
 			</c>
@@ -6307,7 +6351,7 @@
 			</c>
 			<c>
 				<c>
-					<f>91</f>
+					<f>92</f>
 					<parameter>ПроверкаРасход</parameter>
 				</c>
 			</c>
@@ -6331,6 +6375,19 @@
 					<f>4</f>
 				</c>
 			</c>
+			<c>
+				<c>
+					<f>93</f>
+					<parameter>Затраты</parameter>
+				</c>
+			</c>
+			<c>
+				<i>198</i>
+				<c>
+					<f>93</f>
+					<parameter>ЗатратыМлы</parameter>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -6339,7 +6396,7 @@
 			<c>
 				<i>43</i>
 				<c>
-					<f>92</f>
+					<f>94</f>
 					<parameter>СуммаНачало</parameter>
 				</c>
 			</c>
@@ -6365,7 +6422,7 @@
 			</c>
 			<c>
 				<c>
-					<f>93</f>
+					<f>95</f>
 					<parameter>СуммаПриход</parameter>
 				</c>
 			</c>
@@ -6391,7 +6448,7 @@
 			</c>
 			<c>
 				<c>
-					<f>93</f>
+					<f>95</f>
 					<parameter>СуммаРасход</parameter>
 				</c>
 			</c>
@@ -6417,7 +6474,7 @@
 			</c>
 			<c>
 				<c>
-					<f>93</f>
+					<f>95</f>
 					<parameter>СуммаКонец</parameter>
 				</c>
 			</c>
@@ -6443,7 +6500,7 @@
 			</c>
 			<c>
 				<c>
-					<f>87</f>
+					<f>88</f>
 					<parameter>ПриходКасса</parameter>
 				</c>
 			</c>
@@ -6469,7 +6526,7 @@
 			</c>
 			<c>
 				<c>
-					<f>87</f>
+					<f>88</f>
 					<parameter>ПриходРеализация</parameter>
 				</c>
 			</c>
@@ -6495,7 +6552,7 @@
 			</c>
 			<c>
 				<c>
-					<f>87</f>
+					<f>88</f>
 					<parameter>ПриходУчредит</parameter>
 				</c>
 			</c>
@@ -6521,7 +6578,7 @@
 			</c>
 			<c>
 				<c>
-					<f>87</f>
+					<f>88</f>
 					<parameter>ПриходУниверс</parameter>
 				</c>
 			</c>
@@ -6547,7 +6604,7 @@
 			</c>
 			<c>
 				<c>
-					<f>87</f>
+					<f>88</f>
 					<parameter>ПриходОфис</parameter>
 				</c>
 			</c>
@@ -6573,7 +6630,7 @@
 			</c>
 			<c>
 				<c>
-					<f>87</f>
+					<f>88</f>
 					<parameter>ПриходМальч</parameter>
 				</c>
 			</c>
@@ -6599,7 +6656,7 @@
 			</c>
 			<c>
 				<c>
-					<f>87</f>
+					<f>88</f>
 					<parameter>ПриходВНД</parameter>
 				</c>
 			</c>
@@ -6625,7 +6682,7 @@
 			</c>
 			<c>
 				<c>
-					<f>87</f>
+					<f>88</f>
 					<parameter>Приход57</parameter>
 				</c>
 			</c>
@@ -6651,7 +6708,7 @@
 			</c>
 			<c>
 				<c>
-					<f>87</f>
+					<f>88</f>
 					<parameter>ПриходВозврат</parameter>
 				</c>
 			</c>
@@ -6677,7 +6734,7 @@
 			</c>
 			<c>
 				<c>
-					<f>87</f>
+					<f>88</f>
 					<parameter>ПриходСТорно</parameter>
 				</c>
 			</c>
@@ -6703,7 +6760,7 @@
 			</c>
 			<c>
 				<c>
-					<f>87</f>
+					<f>88</f>
 					<parameter>ПриходПрочие</parameter>
 				</c>
 			</c>
@@ -6729,7 +6786,7 @@
 			</c>
 			<c>
 				<c>
-					<f>87</f>
+					<f>88</f>
 					<parameter>ИтогоПриход</parameter>
 				</c>
 			</c>
@@ -6755,7 +6812,7 @@
 			</c>
 			<c>
 				<c>
-					<f>88</f>
+					<f>89</f>
 					<parameter>ПроверкаПриход</parameter>
 				</c>
 			</c>
@@ -6781,7 +6838,7 @@
 			</c>
 			<c>
 				<c>
-					<f>90</f>
+					<f>91</f>
 					<parameter>РасходКасса</parameter>
 				</c>
 			</c>
@@ -6807,7 +6864,7 @@
 			</c>
 			<c>
 				<c>
-					<f>90</f>
+					<f>91</f>
 					<parameter>РасходНалоги</parameter>
 				</c>
 			</c>
@@ -6833,7 +6890,7 @@
 			</c>
 			<c>
 				<c>
-					<f>90</f>
+					<f>91</f>
 					<parameter>РасходЗП</parameter>
 				</c>
 			</c>
@@ -6859,7 +6916,7 @@
 			</c>
 			<c>
 				<c>
-					<f>90</f>
+					<f>91</f>
 					<parameter>РасходУслуги</parameter>
 				</c>
 			</c>
@@ -6885,7 +6942,7 @@
 			</c>
 			<c>
 				<c>
-					<f>90</f>
+					<f>91</f>
 					<parameter>РасходТовар</parameter>
 				</c>
 			</c>
@@ -6911,7 +6968,7 @@
 			</c>
 			<c>
 				<c>
-					<f>90</f>
+					<f>91</f>
 					<parameter>РасходМатериалы</parameter>
 				</c>
 			</c>
@@ -6937,7 +6994,7 @@
 			</c>
 			<c>
 				<c>
-					<f>90</f>
+					<f>91</f>
 					<parameter>РасходУниверс</parameter>
 				</c>
 			</c>
@@ -6963,7 +7020,7 @@
 			</c>
 			<c>
 				<c>
-					<f>90</f>
+					<f>91</f>
 					<parameter>РасходОфис</parameter>
 				</c>
 			</c>
@@ -6989,7 +7046,7 @@
 			</c>
 			<c>
 				<c>
-					<f>90</f>
+					<f>91</f>
 					<parameter>РасходМальч</parameter>
 				</c>
 			</c>
@@ -7015,7 +7072,7 @@
 			</c>
 			<c>
 				<c>
-					<f>90</f>
+					<f>91</f>
 					<parameter>Расход57</parameter>
 				</c>
 			</c>
@@ -7041,7 +7098,7 @@
 			</c>
 			<c>
 				<c>
-					<f>90</f>
+					<f>91</f>
 					<parameter>РасходПрочие</parameter>
 				</c>
 			</c>
@@ -7067,7 +7124,7 @@
 			</c>
 			<c>
 				<c>
-					<f>90</f>
+					<f>91</f>
 					<parameter>ИтогоРасход</parameter>
 				</c>
 			</c>
@@ -7093,8 +7150,60 @@
 			</c>
 			<c>
 				<c>
-					<f>91</f>
+					<f>92</f>
 					<parameter>ПроверкаРасход</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>95</f>
+					<parameter>Затраты</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>95</f>
+					<parameter>ЗатратыМлы</parameter>
 				</c>
 			</c>
 			<c>
@@ -7238,7 +7347,7 @@
 			<c>
 				<i>35</i>
 				<c>
-					<f>94</f>
+					<f>96</f>
 					<parameter>фирма</parameter>
 				</c>
 			</c>
@@ -7318,7 +7427,7 @@
 			<c>
 				<i>40</i>
 				<c>
-					<f>95</f>
+					<f>97</f>
 					<parameter>СуммаПриход</parameter>
 				</c>
 			</c>
@@ -7344,7 +7453,7 @@
 			</c>
 			<c>
 				<c>
-					<f>95</f>
+					<f>97</f>
 					<parameter>СуммаРасход</parameter>
 				</c>
 			</c>
@@ -7556,7 +7665,7 @@
 			<c>
 				<i>35</i>
 				<c>
-					<f>96</f>
+					<f>98</f>
 					<parameter>фирма</parameter>
 				</c>
 			</c>
@@ -7640,7 +7749,7 @@
 			<c>
 				<i>40</i>
 				<c>
-					<f>95</f>
+					<f>97</f>
 					<parameter>СуммаПриход</parameter>
 				</c>
 			</c>
@@ -7666,7 +7775,7 @@
 			</c>
 			<c>
 				<c>
-					<f>95</f>
+					<f>97</f>
 					<parameter>СуммаРасход</parameter>
 				</c>
 			</c>
@@ -8522,6 +8631,16 @@
 		<w>4</w>
 	</merge>
 	<merge>
+		<r>58</r>
+		<c>193</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>58</r>
+		<c>198</c>
+		<w>4</w>
+	</merge>
+	<merge>
 		<r>59</r>
 		<c>1</c>
 		<w>2</w>
@@ -8712,6 +8831,16 @@
 		<w>4</w>
 	</merge>
 	<merge>
+		<r>59</r>
+		<c>193</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>59</r>
+		<c>198</c>
+		<w>4</w>
+	</merge>
+	<merge>
 		<r>60</r>
 		<c>43</c>
 		<w>4</w>
@@ -8862,6 +8991,16 @@
 		<w>4</w>
 	</merge>
 	<merge>
+		<r>60</r>
+		<c>193</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>60</r>
+		<c>198</c>
+		<w>4</w>
+	</merge>
+	<merge>
 		<r>65</r>
 		<c>35</c>
 		<w>4</w>
@@ -8948,7 +9087,7 @@
 			<beginRow>-1</beginRow>
 			<endRow>-1</endRow>
 			<beginColumn>63</beginColumn>
-			<endColumn>192</endColumn>
+			<endColumn>202</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -10027,6 +10166,10 @@
 		<backColor>#C3FFD5</backColor>
 	</format>
 	<format>
+		<font>0</font>
+		<border>0</border>
+	</format>
+	<format>
 		<border>1</border>
 		<horizontalAlignment>Right</horizontalAlignment>
 	</format>
@@ -10141,6 +10284,17 @@
 		<width>24</width>
 		<textColor>style:SpecialTextColor</textColor>
 		<backColor>#C3FFD5</backColor>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧДЦ=2; ЧРГ=' '; ЧН=0.00</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<border>0</border>
+		<horizontalAlignment>Right</horizontalAlignment>
 		<fillType>Parameter</fillType>
 		<format>
 			<v8:item>
