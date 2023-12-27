@@ -61,7 +61,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ПолныеПрава</xr:Item>
 			</DefaultRoles>
 			<Vendor>marv-ua</Vendor>
-			<Version>23.12.02.001</Version>
+			<Version>23.12.3.9</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -1469,6 +1469,7 @@
 			<CommonTemplate>КомпонентаПоискаСтрок</CommonTemplate>
 			<CommonTemplate>ПолучениеДереваОбработчиковОбновления</CommonTemplate>
 			<CommonTemplate>СтруктураПодчиненности</CommonTemplate>
+			<CommonTemplate>ОписаниеИзмененийСистемы</CommonTemplate>
 			<FilterCriterion>СвязанныеДокументы</FilterCriterion>
 			<FilterCriterion>ФайлыВТоме</FilterCriterion>
 			<CommonModule>GoogleПереводчик</CommonModule>
