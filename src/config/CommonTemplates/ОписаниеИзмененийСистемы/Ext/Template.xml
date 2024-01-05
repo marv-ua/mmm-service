@@ -130,11 +130,27 @@
 	<rowsItem>
 		<index>7</index>
 		<row>
-			<empty>true</empty>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Фикс расширения сохраняемого файла отчета Затраты</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>8</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
 		<row>
 			<c>
 				<c>
@@ -154,14 +170,14 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>9</index>
+		<index>10</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>10</index>
+		<index>11</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -182,7 +198,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>11</index>
+		<index>12</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -199,7 +215,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>12</index>
+		<index>13</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -216,7 +232,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>13</index>
+		<index>14</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -233,7 +249,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>14</index>
+		<index>15</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -250,7 +266,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>15</index>
+		<index>16</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -267,7 +283,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>16</index>
+		<index>17</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -284,7 +300,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>17</index>
+		<index>18</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -301,7 +317,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>18</index>
+		<index>19</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -322,7 +338,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>19</index>
+		<index>20</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -343,14 +359,14 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>20</index>
-		<indexTo>21</indexTo>
+		<index>21</index>
+		<indexTo>22</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>22</index>
+		<index>23</index>
 		<row>
 			<c>
 				<c>
@@ -370,7 +386,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>23</index>
+		<index>24</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -381,7 +397,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>24</index>
+		<index>25</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -402,7 +418,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>25</index>
+		<index>26</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -419,7 +435,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>26</index>
+		<index>27</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -440,13 +456,13 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>27</index>
+		<index>28</index>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>28</index>
+		<index>29</index>
 		<row>
 			<c>
 				<c>
@@ -466,7 +482,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>29</index>
+		<index>30</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -477,7 +493,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>30</index>
+		<index>31</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -498,7 +514,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>31</index>
+		<index>32</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -515,7 +531,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>32</index>
+		<index>33</index>
 		<row>
 			<formatIndex>6</formatIndex>
 			<c>
@@ -533,52 +549,52 @@
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>11</defaultFormatIndex>
-	<height>33</height>
+	<height>34</height>
 	<vgLevels>2</vgLevels>
-	<vgRows>33</vgRows>
+	<vgRows>34</vgRows>
 	<vg>
 		<b>3</b>
-		<e>6</e>
+		<e>7</e>
 	</vg>
 	<vg>
 		<b>5</b>
-		<e>6</e>
+		<e>7</e>
 	</vg>
 	<vg>
-		<b>9</b>
-		<e>19</e>
+		<b>10</b>
+		<e>20</e>
 		<o>false</o>
 	</vg>
 	<vg>
-		<b>11</b>
-		<e>17</e>
+		<b>12</b>
+		<e>18</e>
 		<o>false</o>
 	</vg>
 	<vg>
-		<b>23</b>
-		<e>26</e>
+		<b>24</b>
+		<e>27</e>
 		<o>false</o>
 	</vg>
 	<vg>
-		<b>25</b>
+		<b>26</b>
 		<o>false</o>
 	</vg>
 	<vg>
-		<b>29</b>
-		<e>32</e>
+		<b>30</b>
+		<e>33</e>
 		<o>false</o>
 	</vg>
 	<vg>
-		<b>31</b>
-		<e>32</e>
+		<b>32</b>
+		<e>33</e>
 		<o>false</o>
 	</vg>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Версия23_12_1_17</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>29</beginRow>
-			<endRow>32</endRow>
+			<beginRow>30</beginRow>
+			<endRow>33</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -587,8 +603,8 @@
 		<name>Версия23_12_2_2</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>23</beginRow>
-			<endRow>26</endRow>
+			<beginRow>24</beginRow>
+			<endRow>27</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -597,18 +613,18 @@
 		<name>Версия23_12_3_14</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>9</beginRow>
-			<endRow>19</endRow>
+			<beginRow>10</beginRow>
+			<endRow>20</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Версия23_12_4_1</name>
+		<name>Версия23_12_4_5</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>6</endRow>
+			<endRow>7</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -627,8 +643,8 @@
 		<name>Шапка23_12_1_17</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>28</beginRow>
-			<endRow>28</endRow>
+			<beginRow>29</beginRow>
+			<endRow>29</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -637,8 +653,8 @@
 		<name>Шапка23_12_2_2</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>22</beginRow>
-			<endRow>22</endRow>
+			<beginRow>23</beginRow>
+			<endRow>23</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -647,14 +663,14 @@
 		<name>Шапка23_12_3_14</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>8</beginRow>
-			<endRow>8</endRow>
+			<beginRow>9</beginRow>
+			<endRow>9</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Шапка23_12_4_1</name>
+		<name>Шапка23_12_4_5</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>2</beginRow>
