@@ -21,14 +21,12 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ЗапуститьБазуМММ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Организации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СвязьОрганизаций8ИСчетов7</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">5bc7f94b-00a8-46f7-b75d-b31f73556785</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">7499e7da-c4f4-43d9-b4b9-9685095ededb</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.МММСервис</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">f0539610-5293-4259-92ee-140e7296d0e3</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиИОбороты50516062</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДанныеКВыгрузкеВ7</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ВНД</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Меппинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПериодОбновленияДанных</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

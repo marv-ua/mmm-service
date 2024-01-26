@@ -54,7 +54,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Новое в версии 23.12.4</v8:content>
+							<v8:content>Новое в версии 24.1.0</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
@@ -88,7 +88,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отчет ОСВ</v8:content>
+							<v8:content>Выгрузка в 7.7</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -104,7 +104,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>выгрузка в 77 по отбору ОПТ в док с комментарием поставщик</v8:content>
+							<v8:content>Заполнение Перемещения материалов - исключены 0 значения</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -117,12 +117,6 @@
 			<c>
 				<c>
 					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>выгрузка в 77 в документ ДанныеХХИз8</v8:content>
-						</v8:item>
-					</tl>
 				</c>
 			</c>
 		</row>
@@ -132,11 +126,11 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Фикс формирования ОСВ по базе УТП</v8:content>
+							<v8:content>Остатки и Обороты 50,51,60,62</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -152,7 +146,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Меппинг счетов для базы УТП</v8:content>
+							<v8:content>Изменен отчет, тепрерь использует настройки СКД</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -174,15 +168,11 @@
 		<row>
 			<c>
 				<c>
-					<f>4</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>CRM</v8:content>
-						</v8:item>
-						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отчет Затраты</v8:content>
+							<v8:content>Регламентные задания</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -198,7 +188,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Фикс очистки очереди на выгрузку при формировании отчета Затраты без выгрузки данных</v8:content>
+							<v8:content>добавлено задание получения данных из 1С8</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -211,12 +201,6 @@
 			<c>
 				<c>
 					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Добавлена итоговая таблица ВНД</v8:content>
-						</v8:item>
-					</tl>
 				</c>
 			</c>
 		</row>
@@ -226,11 +210,15 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>4</f>
 					<tl>
 						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>CRM</v8:content>
+						</v8:item>
+						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Фикс расширения сохраняемого файла отчета Затраты</v8:content>
+							<v8:content>Отчет Затраты</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -246,7 +234,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Логирование ошибки пересчета по курсу таблицы</v8:content>
+							<v8:content>убрана разукраска в затратах - требование ИС</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -262,7 +250,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>раскраска отчета затраты по цветам: Желтым итоги в затратах, зеленый универсам, Синий - Офис</v8:content>
+							<v8:content>выводить итоги по "ЗП/налоги" в "Итого по услугам"</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -278,7 +266,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Услуги: для РКО добавлен отбор по 91 счету</v8:content>
+							<v8:content>изменение текстовки по заголовкам полей</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -294,7 +282,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Обороты с 75 счетом будут попадать в колонку приход от учредидетя</v8:content>
+							<v8:content>вывод отклонений от кредитового оборота</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -303,6 +291,294 @@
 	</rowsItem>
 	<rowsItem>
 		<index>18</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>19</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>20</index>
+		<row>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новое в версии 23.12.4</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Нове у версії 1.6.20.1</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>21</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>22</index>
+		<row>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>CRM</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет ОСВ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>23</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>выгрузка в 77 по отбору ОПТ в док с комментарием поставщик</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>24</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>выгрузка в 77 в документ ДанныеХХИз8</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>25</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Фикс формирования ОСВ по базе УТП</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>26</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Меппинг счетов для базы УТП</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>27</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка "Итого" теперь суммирует ЗП и ИЛ в том числе (было только налоги, материалы, услуги)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>28</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>29</index>
+		<row>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>CRM</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет Затраты</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>30</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Фикс очистки очереди на выгрузку при формировании отчета Затраты без выгрузки данных</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>31</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Добавлена итоговая таблица ВНД</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>32</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Фикс расширения сохраняемого файла отчета Затраты</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>33</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Логирование ошибки пересчета по курсу таблицы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>34</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>раскраска отчета затраты по цветам: Желтым итоги в затратах, зеленый универсам, Синий - Офис</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>35</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Услуги: для РКО добавлен отбор по 91 счету</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>36</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обороты с 75 счетом будут попадать в колонку приход от учредидетя</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>37</index>
 		<row>
 			<c>
 				<c>
@@ -318,296 +594,15 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>19</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>20</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>21</index>
-		<row>
-			<c>
-				<c>
-					<f>4</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Новое в версии 23.12.3</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>Нове у версії 1.6.20.1</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>22</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>23</index>
-		<row>
-			<c>
-				<c>
-					<f>4</f>
-					<tl>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>CRM</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Отчет Затраты</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>24</index>
-		<row>
-			<formatIndex>6</formatIndex>
-			<c>
-				<c>
-					<f>7</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>добавлена колонка вет справка (вычесть из оплат за товар)</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>25</index>
-		<row>
-			<formatIndex>6</formatIndex>
-			<c>
-				<c>
-					<f>7</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>добавлена колонка оплата по тройственным</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>26</index>
-		<row>
-			<formatIndex>6</formatIndex>
-			<c>
-				<c>
-					<f>7</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>добавлена итоговая таблица по материалам</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>27</index>
-		<row>
-			<formatIndex>6</formatIndex>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>добавлен 75 счет для вывода расшифровки по затратам</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>28</index>
-		<row>
-			<formatIndex>6</formatIndex>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>вет справка добавлена в сумму Затр + млы + ветсправка (последняя колонка)</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>29</index>
-		<row>
-			<formatIndex>6</formatIndex>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>сохранение в формате табличного документа *.xlsx</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>30</index>
-		<row>
-			<formatIndex>6</formatIndex>
-			<c>
-				<c>
-					<f>7</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>исправление ошибок</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>31</index>
-		<row>
-			<c>
-				<c>
-					<f>4</f>
-					<tl>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>CRM</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Макет описания изменений системы</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>32</index>
-		<row>
-			<c>
-				<c>
-					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Исправлены выявленные ошибки.</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>Виправлені виявлені помилки.</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>33</index>
-		<indexTo>34</indexTo>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>35</index>
-		<row>
-			<c>
-				<c>
-					<f>4</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Новое в версии 23.12.2</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>Нове у версії 1.6.20.1</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>36</index>
-		<row>
-			<formatIndex>6</formatIndex>
-			<c>
-				<c>
-					<f>9</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>37</index>
-		<row>
-			<formatIndex>6</formatIndex>
-			<c>
-				<c>
-					<f>4</f>
-					<tl>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>CRM</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Отчет Затраты</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
 		<index>38</index>
 		<row>
-			<formatIndex>6</formatIndex>
 			<c>
 				<c>
-					<f>10</f>
+					<f>5</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>расход офис: включить оборот по 58 (жсмн, октябрь 23)</v8:content>
+							<v8:content>Добавить колонку Перемещение между счетами (заполняется по оборотам 51-51)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -617,20 +612,9 @@
 	<rowsItem>
 		<index>39</index>
 		<row>
-			<formatIndex>6</formatIndex>
 			<c>
 				<c>
-					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Исправлены выявленные ошибки.</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>Виправлені виявлені помилки.</v8:content>
-						</v8:item>
-					</tl>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
@@ -650,7 +634,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Новое в версии 23.12.1</v8:content>
+							<v8:content>Новое в версии 23.12.3</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
@@ -664,18 +648,12 @@
 	<rowsItem>
 		<index>42</index>
 		<row>
-			<formatIndex>6</formatIndex>
-			<c>
-				<c>
-					<f>9</f>
-				</c>
-			</c>
+			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>43</index>
 		<row>
-			<formatIndex>6</formatIndex>
 			<c>
 				<c>
 					<f>4</f>
@@ -696,10 +674,324 @@
 	<rowsItem>
 		<index>44</index>
 		<row>
-			<formatIndex>6</formatIndex>
+			<formatIndex>7</formatIndex>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>добавлена колонка вет справка (вычесть из оплат за товар)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>45</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>добавлена колонка оплата по тройственным</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>46</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>добавлена итоговая таблица по материалам</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>47</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>добавлен 75 счет для вывода расшифровки по затратам</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>48</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>вет справка добавлена в сумму Затр + млы + ветсправка (последняя колонка)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>49</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>сохранение в формате табличного документа *.xlsx</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>50</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>исправление ошибок</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>51</index>
+		<row>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>CRM</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Макет описания изменений системы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>52</index>
+		<row>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Исправлены выявленные ошибки.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Виправлені виявлені помилки.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>53</index>
+		<indexTo>54</indexTo>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>55</index>
+		<row>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новое в версии 23.12.2</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Нове у версії 1.6.20.1</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>56</index>
+		<row>
+			<formatIndex>7</formatIndex>
 			<c>
 				<c>
 					<f>10</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>57</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>CRM</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет Затраты</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>58</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>расход офис: включить оборот по 58 (жсмн, октябрь 23)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>59</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Исправлены выявленные ошибки.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Виправлені виявлені помилки.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>60</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>61</index>
+		<row>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новое в версии 23.12.1</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Нове у версії 1.6.20.1</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>62</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>63</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>CRM</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет Затраты</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>64</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<c>
+					<f>11</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -711,12 +1003,12 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>45</index>
+		<index>65</index>
 		<row>
-			<formatIndex>6</formatIndex>
+			<formatIndex>7</formatIndex>
 			<c>
 				<c>
-					<f>10</f>
+					<f>11</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -728,20 +1020,20 @@
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>11</defaultFormatIndex>
-	<height>46</height>
+	<defaultFormatIndex>12</defaultFormatIndex>
+	<height>66</height>
 	<vgLevels>3</vgLevels>
-	<vgRows>46</vgRows>
+	<vgRows>66</vgRows>
 	<vg>
 		<b>3</b>
-		<e>19</e>
+		<e>18</e>
 	</vg>
 	<vg>
 		<b>5</b>
-		<e>19</e>
+		<e>6</e>
 	</vg>
 	<vg>
-		<b>5</b>
+		<b>8</b>
 		<e>9</e>
 	</vg>
 	<vg>
@@ -749,39 +1041,59 @@
 		<e>12</e>
 	</vg>
 	<vg>
-		<b>22</b>
-		<e>32</e>
+		<b>14</b>
+		<e>18</e>
 	</vg>
 	<vg>
-		<b>24</b>
-		<e>30</e>
-		<o>false</o>
-	</vg>
-	<vg>
-		<b>36</b>
+		<b>21</b>
 		<e>39</e>
-		<o>false</o>
 	</vg>
 	<vg>
-		<b>38</b>
-		<o>false</o>
+		<b>23</b>
+		<e>39</e>
+	</vg>
+	<vg>
+		<b>23</b>
+		<e>28</e>
+	</vg>
+	<vg>
+		<b>30</b>
+		<e>31</e>
 	</vg>
 	<vg>
 		<b>42</b>
-		<e>45</e>
-		<o>false</o>
+		<e>52</e>
 	</vg>
 	<vg>
 		<b>44</b>
-		<e>45</e>
+		<e>50</e>
+		<o>false</o>
+	</vg>
+	<vg>
+		<b>56</b>
+		<e>59</e>
+		<o>false</o>
+	</vg>
+	<vg>
+		<b>58</b>
+		<o>false</o>
+	</vg>
+	<vg>
+		<b>62</b>
+		<e>65</e>
+		<o>false</o>
+	</vg>
+	<vg>
+		<b>64</b>
+		<e>65</e>
 		<o>false</o>
 	</vg>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Версия23_12_1_17</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>42</beginRow>
-			<endRow>45</endRow>
+			<beginRow>62</beginRow>
+			<endRow>65</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -790,8 +1102,8 @@
 		<name>Версия23_12_2_2</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>36</beginRow>
-			<endRow>39</endRow>
+			<beginRow>56</beginRow>
+			<endRow>59</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -800,18 +1112,28 @@
 		<name>Версия23_12_3_14</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>22</beginRow>
-			<endRow>32</endRow>
+			<beginRow>42</beginRow>
+			<endRow>52</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Версия23_12_4_15</name>
+		<name>Версия23_12_4_20</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>21</beginRow>
+			<endRow>39</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Версия24_1_0_0</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>19</endRow>
+			<endRow>18</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -830,8 +1152,8 @@
 		<name>Шапка23_12_1_17</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>41</beginRow>
-			<endRow>41</endRow>
+			<beginRow>61</beginRow>
+			<endRow>61</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -840,8 +1162,8 @@
 		<name>Шапка23_12_2_2</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>35</beginRow>
-			<endRow>35</endRow>
+			<beginRow>55</beginRow>
+			<endRow>55</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -850,14 +1172,24 @@
 		<name>Шапка23_12_3_14</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>21</beginRow>
-			<endRow>21</endRow>
+			<beginRow>41</beginRow>
+			<endRow>41</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Шапка23_12_4_15</name>
+		<name>Шапка23_12_4_20</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>20</beginRow>
+			<endRow>20</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка24_1_0_0</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>2</beginRow>
@@ -892,6 +1224,13 @@
 		<width>665</width>
 		<textPlacement>Wrap</textPlacement>
 		<indent>2</indent>
+	</format>
+	<format>
+		<font>0</font>
+		<height>0</height>
+		<width>432</width>
+		<backColor>#C0C0C0</backColor>
+		<textPlacement>Wrap</textPlacement>
 	</format>
 	<format>
 		<hidden>true</hidden>

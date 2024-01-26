@@ -21,13 +21,13 @@
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>Report.ОстаткиИОбороты50516062.Form.ФормаОтчета</DefaultForm>
+			<DefaultForm>Report.ОстаткиИОбороты50516062.Form.ФормаОтчета1</DefaultForm>
 			<AuxiliaryForm/>
 			<MainDataCompositionSchema>Report.ОстаткиИОбороты50516062.Template.Макет</MainDataCompositionSchema>
-			<DefaultSettingsForm/>
+			<DefaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</DefaultSettingsForm>
 			<AuxiliarySettingsForm/>
-			<DefaultVariantForm/>
-			<VariantsStorage/>
+			<DefaultVariantForm>CommonForm.ФормаВариантаОтчета</DefaultVariantForm>
+			<VariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</VariantsStorage>
 			<SettingsStorage/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<ExtendedPresentation/>
@@ -72,6 +72,7 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаОтчета</Form>
+			<Form>ФормаОтчета1</Form>
 			<Template>Макет</Template>
 		</ChildObjects>
 	</Report>
