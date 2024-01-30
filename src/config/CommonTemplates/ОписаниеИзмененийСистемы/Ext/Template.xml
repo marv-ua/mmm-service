@@ -54,7 +54,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Новое в версии 24.1.0</v8:content>
+							<v8:content>Новое в версии 24.1.1</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
@@ -1145,7 +1145,7 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Версия24_1_0_3</name>
+		<name>Версия24_1_1_0</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
@@ -1205,7 +1205,7 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Шапка24_1_0_3</name>
+		<name>Шапка24_1_1_0</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>2</beginRow>
