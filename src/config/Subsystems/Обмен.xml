@@ -27,6 +27,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ВНД</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Меппинг</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПериодОбновленияДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиИоборотыУпрАналитике</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

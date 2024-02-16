@@ -16,17 +16,12 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатраты">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="Report.ОстаткиИОбороты50516062.StandardCommand.Open">
+		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатратыНовый">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатратыНовый">
+		<Command name="Report.ОстаткиИОбороты50516062.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -36,7 +31,17 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Report.ОстаткиИоборотыУпрАналитике.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="Constant.ПутьКБазеМММ.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.ПериодОбновленияДанных.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -55,7 +60,7 @@
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
-		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатраты">
+		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатратыНовый">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
@@ -63,15 +68,19 @@
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
-		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатратыНовый">
-			<CommandGroup>ActionsPanelReports</CommandGroup>
-			<Placement>Manual</Placement>
-		</Command>
 		<Command name="DataProcessor.МММСервис.Command.ВыгрузкаОборотов50516062ВМММ">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
+		<Command name="Report.ОстаткиИоборотыУпрАналитике.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
 		<Command name="Constant.ПутьКБазеМММ.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="Constant.ПериодОбновленияДанных.StandardCommand.Open">
 			<CommandGroup>ActionsPanelTools</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
@@ -86,17 +95,23 @@
 		<Command name="Report.ВНД.StandardCommand.Open">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
-		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатраты">
+		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатратыНовый">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
 		<Command name="Report.ОстаткиИОбороты50516062.StandardCommand.Open">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
-		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатратыНовый">
-			<CommandGroup>ActionsPanelReports</CommandGroup>
-		</Command>
 		<Command name="DataProcessor.МММСервис.Command.ВыгрузкаОборотов50516062ВМММ">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="Report.ОстаткиИоборотыУпрАналитике.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="Constant.ПутьКБазеМММ.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.ПериодОбновленияДанных.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
 		</Command>
 	</CommandsOrder>
 	<GroupsOrder>
@@ -104,5 +119,6 @@
 		<Group>NavigationPanelOrdinary</Group>
 		<Group>NavigationPanelSeeAlso</Group>
 		<Group>ActionsPanelReports</Group>
+		<Group>ActionsPanelTools</Group>
 	</GroupsOrder>
 </CommandInterface>

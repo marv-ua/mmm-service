@@ -282,6 +282,21 @@
 				</dcscor:item>
 			</appearance>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаАктуальности</dataPath>
+			<field>ДатаАктуальности</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ='''актуально на:'' dd.MM.yy'</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	0 КАК Цифра
@@ -362,8 +377,6 @@
 ИЗ
 	ВТПериоды КАК Периоды,
 	Справочник.Организации КАК Организации
-//ГДЕ
-//	Организации.Ссылка В ИЕРАРХИИ(&amp;Организации)
 {ГДЕ
 	(Организации.Ссылка В ИЕРАРХИИ (&amp;Организации))}
 ;
@@ -427,7 +440,8 @@
 	NULL КАК СуммаОборотДт7,
 	NULL КАК СуммаОборотКт7,
 	NULL КАК СуммаКонечныйОстатокДт7,
-	NULL КАК СуммаКонечныйОстатокКт7
+	NULL КАК СуммаКонечныйОстатокКт7,
+	Обороты8.ДатаАктуальности КАК ДатаАктуальности
 ИЗ
 	ВТОрганизации КАК ВТОрганизации
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Обороты8 КАК Обороты8
@@ -453,7 +467,8 @@
 	Обороты7.СуммаОборотДт,
 	Обороты7.СуммаОборотКт,
 	Обороты7.СуммаКонечныйОстатокДт,
-	Обороты7.СуммаКонечныйОстатокКт
+	Обороты7.СуммаКонечныйОстатокКт,
+	NULL
 ИЗ
 	ВТОрганизации КАК ВТСчета7
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Обороты7 КАК Обороты7
@@ -1197,6 +1212,13 @@
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:GroupItemField">
 							<dcsset:field>Счет7</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ДатаАктуальности</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
