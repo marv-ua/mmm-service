@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Report uuid="cda1148f-91e6-4713-a6d8-7a38fad00747">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.ОборотыМежду6001И6205" category="Object">
+				<xr:TypeId>6aa3c40b-c63e-475c-a506-777f1f05b163</xr:TypeId>
+				<xr:ValueId>20acc9c1-049a-40ab-8017-c2c6dd6faf6d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.ОборотыМежду6001И6205" category="Manager">
+				<xr:TypeId>31e29b86-1fb0-404a-bb64-7c52e5ce5f6a</xr:TypeId>
+				<xr:ValueId>b2ce80ea-0173-4742-aeaf-7f39c6d321c5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОборотыМежду6001И6205</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обороты между 60.01 и 62.05</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>Report.ОборотыМежду6001И6205.Form.ФормаОтчета</DefaultForm>
+			<AuxiliaryForm/>
+			<MainDataCompositionSchema>Report.ОборотыМежду6001И6205.Template.ОсновнаяСхемаКомпоновкиДанных</MainDataCompositionSchema>
+			<DefaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</DefaultSettingsForm>
+			<AuxiliarySettingsForm/>
+			<DefaultVariantForm>CommonForm.ФормаВариантаОтчета</DefaultVariantForm>
+			<VariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</VariantsStorage>
+			<SettingsStorage/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаОтчета</Form>
+			<Template>ОсновнаяСхемаКомпоновкиДанных</Template>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

@@ -36,6 +36,11 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Report.ОборотыМежду6001И6205.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="Constant.ПутьКБазеМММ.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>true</xr:Common>
@@ -76,6 +81,10 @@
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
+		<Command name="Report.ОборотыМежду6001И6205.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
 		<Command name="Constant.ПутьКБазеМММ.StandardCommand.Open">
 			<CommandGroup>ActionsPanelTools</CommandGroup>
 			<Placement>Manual</Placement>
@@ -105,6 +114,9 @@
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
 		<Command name="Report.ОстаткиИоборотыУпрАналитике.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="Report.ОборотыМежду6001И6205.StandardCommand.Open">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
 		<Command name="Constant.ПутьКБазеМММ.StandardCommand.Open">
