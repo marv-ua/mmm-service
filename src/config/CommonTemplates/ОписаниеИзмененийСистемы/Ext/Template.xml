@@ -155,6 +155,12 @@
 			<c>
 				<c>
 					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>добавлены оброты 51 с 62.01, 51, 62.05, 60.01 с 62.05, 60.01 м 62.01</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 		</row>
@@ -164,95 +170,13 @@
 		<row>
 			<c>
 				<c>
-					<f>6</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Регламентные задания</v8:content>
-						</v8:item>
-					</tl>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>11</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>оптимизировано задание обновление данных с 8-ок</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>12</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>13</index>
-		<row>
-			<c>
-				<c>
-					<f>7</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>14</index>
-		<row>
-			<c>
-				<c>
-					<f>7</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>15</index>
-		<row>
-			<c>
-				<c>
-					<f>4</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Новое в версии 24.1.1</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>Нове у версії 1.6.20.1</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>16</index>
-		<row>
-			<c>
-				<c>
-					<f>1</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>17</index>
 		<row>
 			<c>
 				<c>
@@ -272,7 +196,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>18</index>
+		<index>12</index>
 		<row>
 			<c>
 				<c>
@@ -280,7 +204,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Заполнение Перемещения материалов - исключены 0 значения</v8:content>
+							<v8:content>изменено условие поиска ВНД (субконто1 ВНД -&gt; Поставщики товара, вид движения ВНД)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -288,39 +212,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>19</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Выгрузка операций в 7 в операции по счету 50.1 не проводится - это грузится из управленца. В операции грузим только кассы типа Жасмин, Ботко, Зевс, Дионис. </v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>20</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>не формируем данные по 50 счету для некассовых фирм</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>21</index>
+		<index>13</index>
 		<row>
 			<c>
 				<c>
@@ -330,49 +222,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>22</index>
-		<row>
-			<c>
-				<c>
-					<f>6</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Остатки и Обороты 50,51,60,62</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>23</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Изменен отчет, тепрерь использует настройки СКД</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>24</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>25</index>
+		<index>14</index>
 		<row>
 			<c>
 				<c>
@@ -388,7 +238,219 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>15</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>оптимизировано задание обновление данных с 8-ок</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>16</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>17</index>
+		<row>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>18</index>
+		<row>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>19</index>
+		<row>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новое в версии 24.1.1</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Нове у версії 1.6.20.1</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>20</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>21</index>
+		<row>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>CRM</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка в 7.7</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>22</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнение Перемещения материалов - исключены 0 значения</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>23</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка операций в 7 в операции по счету 50.1 не проводится - это грузится из управленца. В операции грузим только кассы типа Жасмин, Ботко, Зевс, Дионис. </v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>24</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>не формируем данные по 50 счету для некассовых фирм</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>25</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>26</index>
+		<row>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Остатки и Обороты 50,51,60,62</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>27</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменен отчет, тепрерь использует настройки СКД</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>28</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>29</index>
+		<row>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регламентные задания</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>30</index>
 		<row>
 			<c>
 				<c>
@@ -404,7 +466,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>27</index>
+		<index>31</index>
 		<row>
 			<c>
 				<c>
@@ -414,7 +476,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>28</index>
+		<index>32</index>
 		<row>
 			<c>
 				<c>
@@ -434,7 +496,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>29</index>
+		<index>33</index>
 		<row>
 			<c>
 				<c>
@@ -450,7 +512,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>30</index>
+		<index>34</index>
 		<row>
 			<c>
 				<c>
@@ -466,7 +528,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>31</index>
+		<index>35</index>
 		<row>
 			<c>
 				<c>
@@ -482,7 +544,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>32</index>
+		<index>36</index>
 		<row>
 			<c>
 				<c>
@@ -498,7 +560,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>33</index>
+		<index>37</index>
 		<row>
 			<c>
 				<c>
@@ -514,7 +576,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>34</index>
+		<index>38</index>
 		<row>
 			<c>
 				<c>
@@ -530,7 +592,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>35</index>
+		<index>39</index>
 		<row>
 			<c>
 				<c>
@@ -546,7 +608,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>36</index>
+		<index>40</index>
 		<row>
 			<c>
 				<c>
@@ -556,13 +618,13 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>37</index>
+		<index>41</index>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>38</index>
+		<index>42</index>
 		<row>
 			<c>
 				<c>
@@ -582,7 +644,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>39</index>
+		<index>43</index>
 		<row>
 			<c>
 				<c>
@@ -592,7 +654,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>40</index>
+		<index>44</index>
 		<row>
 			<c>
 				<c>
@@ -612,7 +674,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>41</index>
+		<index>45</index>
 		<row>
 			<c>
 				<c>
@@ -628,7 +690,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>42</index>
+		<index>46</index>
 		<row>
 			<c>
 				<c>
@@ -644,7 +706,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>43</index>
+		<index>47</index>
 		<row>
 			<c>
 				<c>
@@ -660,7 +722,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>44</index>
+		<index>48</index>
 		<row>
 			<c>
 				<c>
@@ -676,7 +738,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>45</index>
+		<index>49</index>
 		<row>
 			<c>
 				<c>
@@ -692,7 +754,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>46</index>
+		<index>50</index>
 		<row>
 			<c>
 				<c>
@@ -702,7 +764,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>47</index>
+		<index>51</index>
 		<row>
 			<c>
 				<c>
@@ -722,7 +784,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>48</index>
+		<index>52</index>
 		<row>
 			<c>
 				<c>
@@ -738,7 +800,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>49</index>
+		<index>53</index>
 		<row>
 			<c>
 				<c>
@@ -754,7 +816,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>50</index>
+		<index>54</index>
 		<row>
 			<c>
 				<c>
@@ -770,7 +832,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>51</index>
+		<index>55</index>
 		<row>
 			<c>
 				<c>
@@ -786,7 +848,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>52</index>
+		<index>56</index>
 		<row>
 			<c>
 				<c>
@@ -802,7 +864,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>53</index>
+		<index>57</index>
 		<row>
 			<c>
 				<c>
@@ -818,7 +880,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>54</index>
+		<index>58</index>
 		<row>
 			<c>
 				<c>
@@ -834,7 +896,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>55</index>
+		<index>59</index>
 		<row>
 			<c>
 				<c>
@@ -850,7 +912,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>56</index>
+		<index>60</index>
 		<row>
 			<c>
 				<c>
@@ -866,7 +928,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>57</index>
+		<index>61</index>
 		<row>
 			<c>
 				<c>
@@ -876,13 +938,13 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>58</index>
+		<index>62</index>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>59</index>
+		<index>63</index>
 		<row>
 			<c>
 				<c>
@@ -902,13 +964,13 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>60</index>
+		<index>64</index>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>61</index>
+		<index>65</index>
 		<row>
 			<c>
 				<c>
@@ -928,7 +990,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>62</index>
+		<index>66</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -945,7 +1007,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>63</index>
+		<index>67</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -962,7 +1024,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>64</index>
+		<index>68</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -979,7 +1041,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>65</index>
+		<index>69</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -996,7 +1058,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>66</index>
+		<index>70</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1013,7 +1075,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>67</index>
+		<index>71</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1030,7 +1092,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>68</index>
+		<index>72</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1047,7 +1109,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>69</index>
+		<index>73</index>
 		<row>
 			<c>
 				<c>
@@ -1067,7 +1129,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>70</index>
+		<index>74</index>
 		<row>
 			<c>
 				<c>
@@ -1087,14 +1149,14 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>71</index>
-		<indexTo>72</indexTo>
+		<index>75</index>
+		<indexTo>76</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>73</index>
+		<index>77</index>
 		<row>
 			<c>
 				<c>
@@ -1114,7 +1176,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>74</index>
+		<index>78</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1125,7 +1187,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>75</index>
+		<index>79</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1146,7 +1208,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>76</index>
+		<index>80</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1163,7 +1225,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>77</index>
+		<index>81</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1184,13 +1246,13 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>78</index>
+		<index>82</index>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>79</index>
+		<index>83</index>
 		<row>
 			<c>
 				<c>
@@ -1210,7 +1272,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>80</index>
+		<index>84</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1221,7 +1283,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>81</index>
+		<index>85</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1242,7 +1304,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>82</index>
+		<index>86</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1259,7 +1321,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>83</index>
+		<index>87</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1277,91 +1339,91 @@
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>7</defaultFormatIndex>
-	<height>84</height>
+	<height>88</height>
 	<vgLevels>3</vgLevels>
-	<vgRows>84</vgRows>
+	<vgRows>88</vgRows>
 	<vg>
 		<b>3</b>
-		<e>12</e>
+		<e>16</e>
 	</vg>
 	<vg>
 		<b>5</b>
-		<e>9</e>
+		<e>13</e>
 	</vg>
 	<vg>
-		<b>11</b>
-		<e>12</e>
+		<b>15</b>
+		<e>16</e>
 	</vg>
 	<vg>
-		<b>16</b>
-		<e>36</e>
+		<b>20</b>
+		<e>40</e>
 	</vg>
 	<vg>
-		<b>18</b>
-		<e>21</e>
+		<b>22</b>
+		<e>25</e>
 	</vg>
 	<vg>
-		<b>23</b>
-		<e>24</e>
+		<b>27</b>
+		<e>28</e>
 	</vg>
 	<vg>
-		<b>26</b>
-		<e>27</e>
+		<b>30</b>
+		<e>31</e>
 	</vg>
 	<vg>
-		<b>29</b>
-		<e>36</e>
+		<b>33</b>
+		<e>40</e>
 	</vg>
 	<vg>
-		<b>39</b>
-		<e>57</e>
+		<b>43</b>
+		<e>61</e>
 	</vg>
 	<vg>
-		<b>41</b>
-		<e>57</e>
+		<b>45</b>
+		<e>61</e>
 	</vg>
 	<vg>
-		<b>41</b>
-		<e>46</e>
+		<b>45</b>
+		<e>50</e>
 	</vg>
 	<vg>
-		<b>48</b>
-		<e>49</e>
+		<b>52</b>
+		<e>53</e>
 	</vg>
 	<vg>
-		<b>60</b>
-		<e>70</e>
+		<b>64</b>
+		<e>74</e>
 	</vg>
 	<vg>
-		<b>62</b>
-		<e>68</e>
+		<b>66</b>
+		<e>72</e>
 		<o>false</o>
 	</vg>
 	<vg>
-		<b>74</b>
-		<e>77</e>
-		<o>false</o>
-	</vg>
-	<vg>
-		<b>76</b>
+		<b>78</b>
+		<e>81</e>
 		<o>false</o>
 	</vg>
 	<vg>
 		<b>80</b>
-		<e>83</e>
 		<o>false</o>
 	</vg>
 	<vg>
-		<b>82</b>
-		<e>83</e>
+		<b>84</b>
+		<e>87</e>
+		<o>false</o>
+	</vg>
+	<vg>
+		<b>86</b>
+		<e>87</e>
 		<o>false</o>
 	</vg>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Версия23_12_1_17</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>80</beginRow>
-			<endRow>83</endRow>
+			<beginRow>84</beginRow>
+			<endRow>87</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1370,8 +1432,8 @@
 		<name>Версия23_12_2_2</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>74</beginRow>
-			<endRow>77</endRow>
+			<beginRow>78</beginRow>
+			<endRow>81</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1380,8 +1442,8 @@
 		<name>Версия23_12_3_14</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>60</beginRow>
-			<endRow>70</endRow>
+			<beginRow>64</beginRow>
+			<endRow>74</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1390,8 +1452,8 @@
 		<name>Версия23_12_4_20</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>39</beginRow>
-			<endRow>57</endRow>
+			<beginRow>43</beginRow>
+			<endRow>61</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1400,8 +1462,8 @@
 		<name>Версия24_1_1_9</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>16</beginRow>
-			<endRow>36</endRow>
+			<beginRow>20</beginRow>
+			<endRow>40</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1411,7 +1473,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>12</endRow>
+			<endRow>16</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1430,8 +1492,8 @@
 		<name>Шапка23_12_1_17</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>79</beginRow>
-			<endRow>79</endRow>
+			<beginRow>83</beginRow>
+			<endRow>83</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1440,8 +1502,8 @@
 		<name>Шапка23_12_2_2</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>73</beginRow>
-			<endRow>73</endRow>
+			<beginRow>77</beginRow>
+			<endRow>77</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1450,8 +1512,8 @@
 		<name>Шапка23_12_3_14</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>59</beginRow>
-			<endRow>59</endRow>
+			<beginRow>63</beginRow>
+			<endRow>63</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1460,8 +1522,8 @@
 		<name>Шапка23_12_4_20</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>38</beginRow>
-			<endRow>38</endRow>
+			<beginRow>42</beginRow>
+			<endRow>42</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1470,8 +1532,8 @@
 		<name>Шапка24_1_1_9</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>15</beginRow>
-			<endRow>15</endRow>
+			<beginRow>19</beginRow>
+			<endRow>19</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
