@@ -57,6 +57,11 @@
 						<Event name="OnChange">ОрганизацияПриИзменении</Event>
 					</Events>
 				</InputField>
+				<Button name="ОбновитьДанныеЗаПериод" id="237">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ОбновитьДанныеЗаПериод</CommandName>
+					<ExtendedTooltip name="ОбновитьДанныеЗаПериодРасширеннаяПодсказка" id="238"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="Группа1" id="202">
@@ -282,11 +287,14 @@
 							<ExtendedTooltip name="СтраницаДанныеРасширеннаяПодсказка" id="88"/>
 							<ChildItems>
 								<UsualGroup name="Группа5" id="232">
+									<Group>AlwaysHorizontal</Group>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
+									<BackColor>style:БыстрыеОтборыФонГруппы</BackColor>
 									<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="233"/>
 									<ChildItems>
 										<UsualGroup name="Группа2" id="210">
+											<Visible>false</Visible>
 											<Representation>NormalSeparation</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="211"/>
@@ -331,6 +339,28 @@
 											<CommandName>Form.Command.ЗаполнитьУслугиСтороннихОрганизаций</CommandName>
 											<ExtendedTooltip name="ЗаполнитьУслугиСтороннихОрганизацийРасширеннаяПодсказка" id="231"/>
 										</Button>
+										<CheckBoxField name="ОчищатьДокументыПередВыгрузкой" id="252">
+											<DataPath>ОчищатьДокументыПередВыгрузкой</DataPath>
+											<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ОчищатьДокументыПередВыгрузкойКонтекстноеМеню" id="253"/>
+											<ExtendedTooltip name="ОчищатьДокументыПередВыгрузкойРасширеннаяПодсказка" id="254"/>
+										</CheckBoxField>
+										<CheckBoxField name="НеВыгружатьКассу" id="249">
+											<DataPath>НеВыгружатьКассу</DataPath>
+											<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="НеВыгружатьКассуКонтекстноеМеню" id="250"/>
+											<ExtendedTooltip name="НеВыгружатьКассуРасширеннаяПодсказка" id="251"/>
+										</CheckBoxField>
+										<InputField name="ПериодОбновления" id="246">
+											<DataPath>ПериодОбновления</DataPath>
+											<ContextMenu name="ПериодОбновленияКонтекстноеМеню" id="247"/>
+											<ExtendedTooltip name="ПериодОбновленияРасширеннаяПодсказка" id="248"/>
+											<Events>
+												<Event name="OnChange">ПериодОбновленияПриИзменении</Event>
+											</Events>
+										</InputField>
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="Группа3" id="212">
@@ -422,6 +452,12 @@
 													<ChildItems>
 														<LabelField name="ОчередьПериод" id="163">
 															<DataPath>Очередь.Период</DataPath>
+															<Format>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>ДФ='MMM yyyy'</v8:content>
+																</v8:item>
+															</Format>
 															<ContextMenu name="ОчередьПериодКонтекстноеМеню" id="164"/>
 															<ExtendedTooltip name="ОчередьПериодРасширеннаяПодсказка" id="165"/>
 														</LabelField>
@@ -501,20 +537,38 @@
 														</ColumnGroup>
 													</ChildItems>
 												</ColumnGroup>
-												<LabelField name="ОчередьОшибкаВыгрузки" id="196">
-													<DataPath>Очередь.ОшибкаВыгрузки</DataPath>
-													<TitleLocation>None</TitleLocation>
-													<ShowInHeader>false</ShowInHeader>
-													<TextColor>style:SpecialTextColor</TextColor>
-													<ContextMenu name="ОчередьОшибкаВыгрузкиКонтекстноеМеню" id="197"/>
-													<ExtendedTooltip name="ОчередьОшибкаВыгрузкиРасширеннаяПодсказка" id="198"/>
-												</LabelField>
-												<LabelField name="ОчередьКомментарий" id="199">
-													<DataPath>Очередь.Комментарий</DataPath>
-													<TextColor>style:ГиперссылкаЦвет</TextColor>
-													<ContextMenu name="ОчередьКомментарийКонтекстноеМеню" id="200"/>
-													<ExtendedTooltip name="ОчередьКомментарийРасширеннаяПодсказка" id="201"/>
-												</LabelField>
+												<ColumnGroup name="ОчередьГруппа4" id="239">
+													<Group>Horizontal</Group>
+													<ExtendedTooltip name="ОчередьГруппа4РасширеннаяПодсказка" id="240"/>
+													<ChildItems>
+														<ColumnGroup name="ОчередьГруппа5" id="241">
+															<ExtendedTooltip name="ОчередьГруппа5РасширеннаяПодсказка" id="242"/>
+															<ChildItems>
+																<LabelField name="ОчередьОшибкаВыгрузки" id="196">
+																	<DataPath>Очередь.ОшибкаВыгрузки</DataPath>
+																	<TitleLocation>None</TitleLocation>
+																	<ShowInHeader>false</ShowInHeader>
+																	<TextColor>style:SpecialTextColor</TextColor>
+																	<ContextMenu name="ОчередьОшибкаВыгрузкиКонтекстноеМеню" id="197"/>
+																	<ExtendedTooltip name="ОчередьОшибкаВыгрузкиРасширеннаяПодсказка" id="198"/>
+																</LabelField>
+																<LabelField name="ОчередьКомментарий" id="199">
+																	<DataPath>Очередь.Комментарий</DataPath>
+																	<TextColor>style:ГиперссылкаЦвет</TextColor>
+																	<ContextMenu name="ОчередьКомментарийКонтекстноеМеню" id="200"/>
+																	<ExtendedTooltip name="ОчередьКомментарийРасширеннаяПодсказка" id="201"/>
+																</LabelField>
+															</ChildItems>
+														</ColumnGroup>
+														<LabelField name="ОчередьДатаАктуальности" id="243">
+															<DataPath>Очередь.ДатаАктуальности</DataPath>
+															<MaxWidth>7</MaxWidth>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ContextMenu name="ОчередьДатаАктуальностиКонтекстноеМеню" id="244"/>
+															<ExtendedTooltip name="ОчередьДатаАктуальностиРасширеннаяПодсказка" id="245"/>
+														</LabelField>
+													</ChildItems>
+												</ColumnGroup>
 											</ChildItems>
 										</ColumnGroup>
 									</ChildItems>
@@ -699,11 +753,12 @@
 	"Отправить" КАК Команда,
 	ДанныеКВыгрузкеВ7СрезПоследних.ИНН КАК ИНН,
 	ДанныеКВыгрузкеВ7СрезПоследних.ОшибкаВыгрузки КАК ОшибкаВыгрузки,
-	ДанныеКВыгрузкеВ7СрезПоследних.Комментарий КАК Комментарий
+	ДанныеКВыгрузкеВ7СрезПоследних.Комментарий КАК Комментарий,
+	ДанныеКВыгрузкеВ7СрезПоследних.ДатаАктуальности КАК ДатаАктуальности
 ИЗ
 	РегистрСведений.ДанныеКВыгрузкеВ7 КАК ДанныеКВыгрузкеВ7СрезПоследних
 ГДЕ
-	ДанныеКВыгрузкеВ7СрезПоследних.Период = НАЧАЛОПЕРИОДА(&amp;ПериодЗатрат, МЕСЯЦ)</QueryText>
+	ДанныеКВыгрузкеВ7СрезПоследних.Период МЕЖДУ НАЧАЛОПЕРИОДА(&amp;ПериодЗатрат, МЕСЯЦ) И КОНЕЦПЕРИОДА(&amp;ПериодЗатратКонец, МЕСЯЦ)</QueryText>
 				<MainTable>InformationRegister.ДанныеКВыгрузкеВ7</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -757,9 +812,43 @@
 							<dcsset:viewMode>Normal</dcsset:viewMode>
 							<dcsset:userSettingID>ed65edc8-641d-4b0e-892d-4a170445b512</dcsset:userSettingID>
 						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>ДатаАктуальности</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">ДатаАктуальности</dcsset:left>
+									<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Видимость</dcscor:parameter>
+									<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>19a74c7c-d33c-4fe3-90dc-dc27141a13f4</dcsset:userSettingID>
+						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
-						<dcsset:userSettingPresentation xsi:type="xs:string">Видимость ошибок</dcsset:userSettingPresentation>
+						<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>uk</v8:lang>
+								<v8:content>Видимость ошибок</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Видимость ошибок</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Видимость ошибок</v8:content>
+							</v8:item>
+						</dcsset:userSettingPresentation>
 					</dcsset:conditionalAppearance>
 					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
 					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
@@ -850,6 +939,50 @@
 			<Save>
 				<Field>РасширенныеИтоги</Field>
 			</Save>
+		</Attribute>
+		<Attribute name="ПериодОбновления" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период обновления</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:StandardPeriod</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОбновлениеЗаПериод" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновление за период</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="НеВыгружатьКассу" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не выгружать кассу</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОчищатьДокументыПередВыгрузкой" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очищать документы перед выгрузкой</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>
@@ -942,6 +1075,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаполнитьУслугиСтороннихОрганизаций</Action>
+		</Command>
+		<Command name="ОбновитьДанныеЗаПериод" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить данные за период</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить данные за период</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьДанныеЗаПериод</Action>
 		</Command>
 	</Commands>
 </Form>
