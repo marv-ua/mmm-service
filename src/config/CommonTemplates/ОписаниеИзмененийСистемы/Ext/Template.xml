@@ -42,7 +42,11 @@
 	<rowsItem>
 		<index>1</index>
 		<row>
-			<empty>true</empty>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -50,11 +54,11 @@
 		<row>
 			<c>
 				<c>
-					<f>4</f>
+					<f>5</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Новое в версии 24.3</v8:content>
+							<v8:content>Новое в версии 24.7</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
@@ -70,7 +74,7 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 				</c>
 			</c>
 		</row>
@@ -80,11 +84,11 @@
 		<row>
 			<c>
 				<c>
-					<f>6</f>
+					<f>4</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Остатки и обороты по Упр. аналитике (сч.: 60, 62)</v8:content>
+							<v8:content>Механизм установки даты запрета редактирования банковских и кассовых операций</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -96,11 +100,11 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>добавлен отчет</v8:content>
+							<v8:content>Новый механизм</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -112,13 +116,7 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>модифицирован отбор по упр аналитике, теперь учитывается аналитика и для объекта, не только группы</v8:content>
-						</v8:item>
-					</tl>
+					<f>4</f>
 				</c>
 			</c>
 		</row>
@@ -128,7 +126,7 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 				</c>
 			</c>
 		</row>
@@ -139,12 +137,6 @@
 			<c>
 				<c>
 					<f>6</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Обороты между 60.01 и 62.05</v8:content>
-						</v8:item>
-					</tl>
 				</c>
 			</c>
 		</row>
@@ -154,13 +146,7 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>добавлен отчет</v8:content>
-						</v8:item>
-					</tl>
+					<f>6</f>
 				</c>
 			</c>
 		</row>
@@ -170,13 +156,7 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>добавлены оброты 51 с 62.01, 51, 62.05, 60.01 с 62.05, 60.01 м 62.01</v8:content>
-						</v8:item>
-					</tl>
+					<f>4</f>
 				</c>
 			</c>
 		</row>
@@ -186,7 +166,7 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 				</c>
 			</c>
 		</row>
@@ -196,17 +176,7 @@
 		<row>
 			<c>
 				<c>
-					<f>4</f>
-					<tl>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>CRM</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Выгрузка в 7.7</v8:content>
-						</v8:item>
-					</tl>
+					<f>6</f>
 				</c>
 			</c>
 		</row>
@@ -216,13 +186,7 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>изменено условие поиска ВНД (субконто1 ВНД -&gt; Поставщики товара, вид движения ВНД)</v8:content>
-						</v8:item>
-					</tl>
+					<f>4</f>
 				</c>
 			</c>
 		</row>
@@ -232,7 +196,7 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 				</c>
 			</c>
 		</row>
@@ -243,12 +207,6 @@
 			<c>
 				<c>
 					<f>6</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Регламентные задания</v8:content>
-						</v8:item>
-					</tl>
 				</c>
 			</c>
 		</row>
@@ -256,17 +214,7 @@
 	<rowsItem>
 		<index>16</index>
 		<row>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>оптимизировано задание обновление данных с 8-ок</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
+			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -275,40 +223,10 @@
 			<c>
 				<c>
 					<f>5</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>18</index>
-		<row>
-			<c>
-				<c>
-					<f>7</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>19</index>
-		<row>
-			<c>
-				<c>
-					<f>7</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>20</index>
-		<row>
-			<c>
-				<c>
-					<f>4</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Новое в версии 24.1.1</v8:content>
+							<v8:content>Новое в версии 24.3</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
@@ -320,11 +238,59 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>18</index>
+		<row>
+			<c>
+				<c>
+					<f>6</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>19</index>
+		<row>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Остатки и обороты по Упр. аналитике (сч.: 60, 62)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>20</index>
+		<row>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>добавлен отчет</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>21</index>
 		<row>
 			<c>
 				<c>
-					<f>1</f>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>модифицирован отбор по упр аналитике, теперь учитывается аналитика и для объекта, не только группы</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 		</row>
@@ -334,17 +300,7 @@
 		<row>
 			<c>
 				<c>
-					<f>4</f>
-					<tl>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>CRM</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Выгрузка в 7.7</v8:content>
-						</v8:item>
-					</tl>
+					<f>6</f>
 				</c>
 			</c>
 		</row>
@@ -354,11 +310,11 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>4</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Заполнение Перемещения материалов - исключены 0 значения</v8:content>
+							<v8:content>Обороты между 60.01 и 62.05</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -370,11 +326,11 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Выгрузка операций в 7 в операции по счету 50.1 не проводится - это грузится из управленца. В операции грузим только кассы типа Жасмин, Ботко, Зевс, Дионис. </v8:content>
+							<v8:content>добавлен отчет</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -386,11 +342,11 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>не формируем данные по 50 счету для некассовых фирм</v8:content>
+							<v8:content>добавлены оброты 51 с 62.01, 51, 62.05, 60.01 с 62.05, 60.01 м 62.01</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -402,7 +358,7 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 				</c>
 			</c>
 		</row>
@@ -412,11 +368,11 @@
 		<row>
 			<c>
 				<c>
-					<f>6</f>
+					<f>4</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Остатки и Обороты 50,51,60,62</v8:content>
+							<v8:content>Отчет: Затраты</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -428,11 +384,11 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Изменен отчет, тепрерь использует настройки СКД</v8:content>
+							<v8:content>Депозит (оборот 55 51) отображать как перемещение между кассами</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -444,7 +400,7 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 				</c>
 			</c>
 		</row>
@@ -454,7 +410,7 @@
 		<row>
 			<c>
 				<c>
-					<f>6</f>
+					<f>4</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -470,11 +426,11 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>добавлено задание получения данных из 1С8</v8:content>
+							<v8:content>оптимизировано задание обновление данных с 8-ок</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -486,7 +442,7 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 				</c>
 			</c>
 		</row>
@@ -496,7 +452,209 @@
 		<row>
 			<c>
 				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>34</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новое в версии 24.1.1</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Нове у версії 1.6.20.1</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>35</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>36</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>CRM</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка в 7.7</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>37</index>
+		<row>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнение Перемещения материалов - исключены 0 значения</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>38</index>
+		<row>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка операций в 7 в операции по счету 50.1 не проводится - это грузится из управленца. В операции грузим только кассы типа Жасмин, Ботко, Зевс, Дионис. </v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>39</index>
+		<row>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>не формируем данные по 50 счету для некассовых фирм</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>40</index>
+		<row>
+			<c>
+				<c>
+					<f>6</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>41</index>
+		<row>
+			<c>
+				<c>
 					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Остатки и Обороты 50,51,60,62</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>42</index>
+		<row>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменен отчет, тепрерь использует настройки СКД</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>43</index>
+		<row>
+			<c>
+				<c>
+					<f>6</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>44</index>
+		<row>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регламентные задания</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>45</index>
+		<row>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>добавлено задание получения данных из 1С8</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>46</index>
+		<row>
+			<c>
+				<c>
+					<f>6</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>47</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
 					<tl>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
@@ -512,11 +670,11 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>34</index>
+		<index>48</index>
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -528,11 +686,11 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>35</index>
+		<index>49</index>
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -544,11 +702,11 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>36</index>
+		<index>50</index>
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -560,11 +718,11 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>37</index>
+		<index>51</index>
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -576,11 +734,11 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>38</index>
+		<index>52</index>
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -592,11 +750,11 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>39</index>
+		<index>53</index>
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -608,11 +766,11 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>40</index>
+		<index>54</index>
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -624,27 +782,27 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>41</index>
+		<index>55</index>
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>42</index>
+		<index>56</index>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>43</index>
+		<index>57</index>
 		<row>
 			<c>
 				<c>
-					<f>4</f>
+					<f>5</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -660,7 +818,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>44</index>
+		<index>58</index>
 		<row>
 			<c>
 				<c>
@@ -670,11 +828,11 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>45</index>
+		<index>59</index>
 		<row>
 			<c>
 				<c>
-					<f>4</f>
+					<f>5</f>
 					<tl>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
@@ -690,11 +848,11 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>46</index>
+		<index>60</index>
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -706,11 +864,11 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>47</index>
+		<index>61</index>
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -722,11 +880,11 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>48</index>
+		<index>62</index>
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -738,11 +896,11 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>49</index>
+		<index>63</index>
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -754,11 +912,11 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>50</index>
+		<index>64</index>
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -770,219 +928,13 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>51</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>52</index>
-		<row>
-			<c>
-				<c>
-					<f>4</f>
-					<tl>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>CRM</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Отчет Затраты</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>53</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Фикс очистки очереди на выгрузку при формировании отчета Затраты без выгрузки данных</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>54</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Добавлена итоговая таблица ВНД</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>55</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Фикс расширения сохраняемого файла отчета Затраты</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>56</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Логирование ошибки пересчета по курсу таблицы</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>57</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>раскраска отчета затраты по цветам: Желтым итоги в затратах, зеленый универсам, Синий - Офис</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>58</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Услуги: для РКО добавлен отбор по 91 счету</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>59</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Обороты с 75 счетом будут попадать в колонку приход от учредидетя</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>60</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Вызов исключений при ошибке формирования отчетов по таймауту</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>61</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Добавить колонку Перемещение между счетами (заполняется по оборотам 51-51)</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>62</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>63</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>64</index>
-		<row>
-			<c>
-				<c>
-					<f>4</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Новое в версии 23.12.3</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>Нове у версії 1.6.20.1</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
 		<index>65</index>
 		<row>
-			<empty>true</empty>
+			<c>
+				<c>
+					<f>6</f>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -990,7 +942,7 @@
 		<row>
 			<c>
 				<c>
-					<f>4</f>
+					<f>5</f>
 					<tl>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
@@ -1008,14 +960,13 @@
 	<rowsItem>
 		<index>67</index>
 		<row>
-			<formatIndex>8</formatIndex>
 			<c>
 				<c>
-					<f>9</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>добавлена колонка вет справка (вычесть из оплат за товар)</v8:content>
+							<v8:content>Фикс очистки очереди на выгрузку при формировании отчета Затраты без выгрузки данных</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1025,14 +976,13 @@
 	<rowsItem>
 		<index>68</index>
 		<row>
-			<formatIndex>8</formatIndex>
 			<c>
 				<c>
-					<f>9</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>добавлена колонка оплата по тройственным</v8:content>
+							<v8:content>Добавлена итоговая таблица ВНД</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1042,14 +992,13 @@
 	<rowsItem>
 		<index>69</index>
 		<row>
-			<formatIndex>8</formatIndex>
 			<c>
 				<c>
-					<f>9</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>добавлена итоговая таблица по материалам</v8:content>
+							<v8:content>Фикс расширения сохраняемого файла отчета Затраты</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1059,14 +1008,13 @@
 	<rowsItem>
 		<index>70</index>
 		<row>
-			<formatIndex>8</formatIndex>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>добавлен 75 счет для вывода расшифровки по затратам</v8:content>
+							<v8:content>Логирование ошибки пересчета по курсу таблицы</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1076,14 +1024,13 @@
 	<rowsItem>
 		<index>71</index>
 		<row>
-			<formatIndex>8</formatIndex>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>вет справка добавлена в сумму Затр + млы + ветсправка (последняя колонка)</v8:content>
+							<v8:content>раскраска отчета затраты по цветам: Желтым итоги в затратах, зеленый универсам, Синий - Офис</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1093,14 +1040,13 @@
 	<rowsItem>
 		<index>72</index>
 		<row>
-			<formatIndex>8</formatIndex>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>сохранение в формате табличного документа *.xlsx</v8:content>
+							<v8:content>Услуги: для РКО добавлен отбор по 91 счету</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1110,14 +1056,13 @@
 	<rowsItem>
 		<index>73</index>
 		<row>
-			<formatIndex>8</formatIndex>
 			<c>
 				<c>
-					<f>9</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>исправление ошибок</v8:content>
+							<v8:content>Обороты с 75 счетом будут попадать в колонку приход от учредидетя</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1129,15 +1074,11 @@
 		<row>
 			<c>
 				<c>
-					<f>4</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>CRM</v8:content>
-						</v8:item>
-						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Макет описания изменений системы</v8:content>
+							<v8:content>Вызов исключений при ошибке формирования отчетов по таймауту</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1149,15 +1090,11 @@
 		<row>
 			<c>
 				<c>
-					<f>10</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Исправлены выявленные ошибки.</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>Виправлені виявлені помилки.</v8:content>
+							<v8:content>Добавить колонку Перемещение между счетами (заполняется по оборотам 51-51)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1166,7 +1103,16 @@
 	</rowsItem>
 	<rowsItem>
 		<index>76</index>
-		<indexTo>77</indexTo>
+		<row>
+			<c>
+				<c>
+					<f>6</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>77</index>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -1176,11 +1122,11 @@
 		<row>
 			<c>
 				<c>
-					<f>4</f>
+					<f>5</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Новое в версии 23.12.2</v8:content>
+							<v8:content>Новое в версии 23.12.3</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
@@ -1194,21 +1140,15 @@
 	<rowsItem>
 		<index>79</index>
 		<row>
-			<formatIndex>8</formatIndex>
-			<c>
-				<c>
-					<f>11</f>
-				</c>
-			</c>
+			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>80</index>
 		<row>
-			<formatIndex>8</formatIndex>
 			<c>
 				<c>
-					<f>4</f>
+					<f>5</f>
 					<tl>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
@@ -1229,6 +1169,224 @@
 			<formatIndex>8</formatIndex>
 			<c>
 				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>добавлена колонка вет справка (вычесть из оплат за товар)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>82</index>
+		<row>
+			<formatIndex>8</formatIndex>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>добавлена колонка оплата по тройственным</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>83</index>
+		<row>
+			<formatIndex>8</formatIndex>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>добавлена итоговая таблица по материалам</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>84</index>
+		<row>
+			<formatIndex>8</formatIndex>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>добавлен 75 счет для вывода расшифровки по затратам</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>85</index>
+		<row>
+			<formatIndex>8</formatIndex>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>вет справка добавлена в сумму Затр + млы + ветсправка (последняя колонка)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>86</index>
+		<row>
+			<formatIndex>8</formatIndex>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>сохранение в формате табличного документа *.xlsx</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>87</index>
+		<row>
+			<formatIndex>8</formatIndex>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>исправление ошибок</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>88</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>CRM</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Макет описания изменений системы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>89</index>
+		<row>
+			<c>
+				<c>
+					<f>10</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Исправлены выявленные ошибки.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Виправлені виявлені помилки.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>90</index>
+		<indexTo>91</indexTo>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>92</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новое в версии 23.12.2</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Нове у версії 1.6.20.1</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>93</index>
+		<row>
+			<formatIndex>8</formatIndex>
+			<c>
+				<c>
+					<f>11</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>94</index>
+		<row>
+			<formatIndex>8</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>CRM</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет Затраты</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>95</index>
+		<row>
+			<formatIndex>8</formatIndex>
+			<c>
+				<c>
 					<f>12</f>
 					<tl>
 						<v8:item>
@@ -1241,7 +1399,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>82</index>
+		<index>96</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1262,17 +1420,17 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>83</index>
+		<index>97</index>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>84</index>
+		<index>98</index>
 		<row>
 			<c>
 				<c>
-					<f>4</f>
+					<f>5</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1288,7 +1446,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>85</index>
+		<index>99</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1299,12 +1457,12 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>86</index>
+		<index>100</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
 				<c>
-					<f>4</f>
+					<f>5</f>
 					<tl>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
@@ -1320,7 +1478,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>87</index>
+		<index>101</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1337,7 +1495,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>88</index>
+		<index>102</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1355,31 +1513,34 @@
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>7</defaultFormatIndex>
-	<height>89</height>
+	<height>103</height>
 	<vgLevels>3</vgLevels>
-	<vgRows>89</vgRows>
+	<vgRows>103</vgRows>
 	<vg>
 		<b>3</b>
-		<e>17</e>
+		<e>15</e>
 	</vg>
 	<vg>
 		<b>5</b>
-		<e>14</e>
 	</vg>
 	<vg>
-		<b>16</b>
-		<e>17</e>
+		<b>7</b>
+		<e>9</e>
 	</vg>
 	<vg>
-		<b>21</b>
-		<e>41</e>
+		<b>11</b>
+		<e>12</e>
 	</vg>
 	<vg>
-		<b>23</b>
-		<e>26</e>
+		<b>14</b>
+		<e>15</e>
 	</vg>
 	<vg>
-		<b>28</b>
+		<b>18</b>
+		<e>32</e>
+	</vg>
+	<vg>
+		<b>20</b>
 		<e>29</e>
 	</vg>
 	<vg>
@@ -1387,59 +1548,75 @@
 		<e>32</e>
 	</vg>
 	<vg>
-		<b>34</b>
-		<e>41</e>
+		<b>35</b>
+		<e>55</e>
 	</vg>
 	<vg>
-		<b>44</b>
-		<e>62</e>
+		<b>37</b>
+		<e>40</e>
 	</vg>
 	<vg>
-		<b>46</b>
-		<e>62</e>
+		<b>42</b>
+		<e>43</e>
 	</vg>
 	<vg>
-		<b>46</b>
-		<e>51</e>
+		<b>45</b>
+		<e>46</e>
 	</vg>
 	<vg>
-		<b>53</b>
-		<e>54</e>
+		<b>48</b>
+		<e>55</e>
 	</vg>
 	<vg>
-		<b>65</b>
-		<e>75</e>
+		<b>58</b>
+		<e>76</e>
+	</vg>
+	<vg>
+		<b>60</b>
+		<e>76</e>
+	</vg>
+	<vg>
+		<b>60</b>
+		<e>65</e>
 	</vg>
 	<vg>
 		<b>67</b>
-		<e>73</e>
-		<o>false</o>
+		<e>68</e>
 	</vg>
 	<vg>
 		<b>79</b>
-		<e>82</e>
-		<o>false</o>
+		<e>89</e>
 	</vg>
 	<vg>
 		<b>81</b>
+		<e>87</e>
 		<o>false</o>
 	</vg>
 	<vg>
-		<b>85</b>
-		<e>88</e>
+		<b>93</b>
+		<e>96</e>
 		<o>false</o>
 	</vg>
 	<vg>
-		<b>87</b>
-		<e>88</e>
+		<b>95</b>
+		<o>false</o>
+	</vg>
+	<vg>
+		<b>99</b>
+		<e>102</e>
+		<o>false</o>
+	</vg>
+	<vg>
+		<b>101</b>
+		<e>102</e>
 		<o>false</o>
 	</vg>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Версия23_12_1_17</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>85</beginRow>
-			<endRow>88</endRow>
+			<beginRow>99</beginRow>
+			<endRow>102</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1448,8 +1625,8 @@
 		<name>Версия23_12_2_2</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>79</beginRow>
-			<endRow>82</endRow>
+			<beginRow>93</beginRow>
+			<endRow>96</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1458,8 +1635,8 @@
 		<name>Версия23_12_3_14</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>65</beginRow>
-			<endRow>75</endRow>
+			<beginRow>79</beginRow>
+			<endRow>89</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1468,8 +1645,8 @@
 		<name>Версия23_12_4_20</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>44</beginRow>
-			<endRow>62</endRow>
+			<beginRow>58</beginRow>
+			<endRow>76</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1478,18 +1655,28 @@
 		<name>Версия24_1_1_9</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>21</beginRow>
-			<endRow>41</endRow>
+			<beginRow>35</beginRow>
+			<endRow>55</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Версия24_3_0_0</name>
+		<name>Версия24_3_5_2</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>18</beginRow>
+			<endRow>32</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Версия24_7_0_0</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>17</endRow>
+			<endRow>15</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1508,14 +1695,24 @@
 		<name>Шапка23_12_1_17</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>84</beginRow>
-			<endRow>84</endRow>
+			<beginRow>98</beginRow>
+			<endRow>98</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Шапка23_12_2_2</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>92</beginRow>
+			<endRow>92</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка23_12_3_14</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>78</beginRow>
@@ -1525,21 +1722,11 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Шапка23_12_3_14</name>
-		<area>
-			<type>Rows</type>
-			<beginRow>64</beginRow>
-			<endRow>64</endRow>
-			<beginColumn>-1</beginColumn>
-			<endColumn>-1</endColumn>
-		</area>
-	</namedItem>
-	<namedItem xsi:type="NamedItemCells">
 		<name>Шапка23_12_4_20</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>43</beginRow>
-			<endRow>43</endRow>
+			<beginRow>57</beginRow>
+			<endRow>57</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1548,14 +1735,24 @@
 		<name>Шапка24_1_1_9</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>20</beginRow>
-			<endRow>20</endRow>
+			<beginRow>34</beginRow>
+			<endRow>34</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Шапка24_3_0_0</name>
+		<name>Шапка24_3_5_2</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>17</beginRow>
+			<endRow>17</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка24_7_0_0</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>2</beginRow>
@@ -1583,13 +1780,6 @@
 		<width>432</width>
 		<backColor>#C0C0C0</backColor>
 		<textPlacement>Wrap</textPlacement>
-		<hyperLink>false</hyperLink>
-	</format>
-	<format>
-		<font>1</font>
-		<width>665</width>
-		<textPlacement>Wrap</textPlacement>
-		<indent>2</indent>
 	</format>
 	<format>
 		<font>0</font>
@@ -1597,6 +1787,13 @@
 		<width>432</width>
 		<backColor>#C0C0C0</backColor>
 		<textPlacement>Wrap</textPlacement>
+		<hyperLink>false</hyperLink>
+	</format>
+	<format>
+		<font>1</font>
+		<width>665</width>
+		<textPlacement>Wrap</textPlacement>
+		<indent>2</indent>
 	</format>
 	<format>
 		<width>72</width>
