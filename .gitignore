@@ -1,3 +1,4 @@
 *.cf
+*.updater1c
 src/config/ConfigDumpInfo.xml
 src/config/CommonTemplates/**/*.bin
